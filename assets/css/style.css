@@ -4,8 +4,6 @@
     font-weight: normal;
 }
 
-
-
 body {
     background-color: #F6F7FA;
     margin-top: 60px;
@@ -25,6 +23,16 @@ span {
 
 ul {
     list-style-type: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
 }
 
 .row {
@@ -207,28 +215,27 @@ ul {
 }
 
 .content-name {
-	padding-right: 60px;
-	padding-left: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
     margin-top: 50px;
     margin-bottom: 15px;
-
 }
 
 .content-name>button {
-	color: #3EA3FF;
-	background: transparent;
-	padding: 8px;
-	padding-left: 25px;
-	padding-right: 25px;
-	border-radius: 50px;
-	border: 1px solid #3EA3FF;
-	outline: none;
-	right: 0;
-	float: right;
+    color: #3EA3FF;
+    background: transparent;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+    border: 1px solid #3EA3FF;
+    outline: none;
+    right: 0;
+    float: right;
 }
 
 .content-name>button>svg {
-	    margin-right: 14px;
+    margin-right: 14px;
 }
 
 .content-name label {
@@ -340,7 +347,7 @@ ul {
 
 .wrapper-tab>div {
     width: 105px;
-    height: 51px;
+    height: 65px;
     border-radius: 5px;
     margin-left: 6px;
     margin-right: 6px;
@@ -376,9 +383,29 @@ ul {
     opacity: 0.6;
 }
 
+.first-tab span {
+    padding-left: 20px;
+}
+
+.three-tab span {
+    padding-left: 60px;
+}
+
+.four-tab span {
+    padding-left: 10px;
+}
+
 .second-tab {
     background: linear-gradient(120deg, #C6C6F2, #C5E1EF);
     opacity: 0.6;
+}
+
+.second-tab svg {
+    transform: rotate(180deg);
+}
+
+.three-tab svg {
+    transform: rotate(180deg);
 }
 
 .three-tab {
@@ -483,12 +510,137 @@ circle:nth-child(2n) {
 }
 
 .content-body-table {
-	width: 1017px;
-	margin-left: 7%;
-	box-shadow: 0px 0px 8px #bdbdbd94;
-	background-color: #fff;
-	padding: 20px 10px 10px 10px;
-	padding-left: 10px;
+    width: 1017px;
+    margin-left: 7%;
+    box-shadow: 0px 0px 8px #bdbdbd94;
+    background-color: #fff;
+    padding: 20px 10px 10px 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.first-content {
+    padding: 12px;
+}
+
+.first-content div {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.first-content div div {
+    display: flex;
+    align-items: center;
+}
+
+.first-content div div input {
+    margin-right: 27px;
+    width: 215px;
+    border-radius: 3px;
+    border: 1px solid #E7E9EE;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    color: #000;
+    font-family: HelveticaRegular;
+}
+
+.first-content div div a {
+    margin-left: 37px;
+    border-bottom: 1px solid #3EA3FF;
+    color: #3EA3FF;
+}
+
+.first-content div div button {
+    margin-right: 78px;
+    width: 215px;
+    height: 32px;
+    background-color: #fff;
+    z-index: 1001;
+    border-radius: 3px;
+    border: 1px solid #E7E9EE;
+    text-align: left;
+}
+
+.first-content div div span {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.dropdown-menu {
+    margin: 0px;
+    width: 215px;
+    border: 1px solid #E7E9EE;
+    top: 86%;
+}
+
+.dropdown-menu li a {
+    border: none;
+    padding-left: 10px;
+    color: #000 !important;
+    margin-left: 0px !important;
+    border-bottom: none !important;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    text-decoration: none;
+    background-color: #EAEBEE;
+}
+
+.caret {
+	background-image: url(assets/img/shape.png)
+}
+
+.dropdown-menu>li>span>input {
+	border: none !important;
+    width: 213px !important;
+    font-size: 14px;
+    padding: 3px 11px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 30px !important; 
+    height: 20px !important;  
+
+}
+
+.dropdown-menu>li> {
+	margin: 0px;
+	font-size: unset;
+}
+
+.search-icon-input:after {
+	position: absolute;
+    margin-top: 3px;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/magnifying-glass.png);
+    background-size: cover;
+}
+
+.dropdown-menu>li>span>input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: ;
+}
+.dropdown-menu>li>span>input::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+.dropdown-menu>li>span>input:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+.dropdown-menu>li>span>input:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+
+
+
+
+.dropdown-menu>li:first-child {
+	border-bottom: 1px solid #EFF0F3;
 }
 
 table {
@@ -497,42 +649,45 @@ table {
     text-align: left;
 }
 
-table, th, td {
+table,
+th,
+td {
     border-bottom: 1px solid #C2C2C2;
     height: 40px;
     color: #3EA3FF;
     font-family: HelveticaRegular;
     size: 12px;
- 	vertical-align: middle;   
+    vertical-align: middle;
 }
 
-th:first-child{
-	width: 70px;
+th:first-child {
+    width: 70px;
 }
 
 .table-content {
-	line-height: 17px;
-	font-size: 12px;
+    line-height: 17px;
+    font-size: 12px;
 }
 
 .control-buttons {
-	float: right;
-	display: inline;
+    float: right;
+    display: inline;
 }
+
 .copy-button {
-	height: 17px;
-	width: 17px;
-	border: none;
-	outline: none;
-	background-color: transparent;
-	margin-right: 25px;
+    height: 17px;
+    width: 17px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 25px;
 }
 
 .trash-button {
-	height: 13px;
-	width: 17px;
-	border: none;
-	outline: none;
-	background-color: transparent;
-	margin-right: 25px;
+    height: 13px;
+    width: 17px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 25px;
 }
