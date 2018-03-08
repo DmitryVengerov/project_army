@@ -1,9 +1,7 @@
-
-
 @font-face {
-  font-family: "HelveticaRegular";
-  src: url(../fonts/HelveticaRegular/HelveticaRegular.woff);
-  font-weight: normal;
+    font-family: "HelveticaRegular";
+    src: url(../fonts/HelveticaRegular/HelveticaRegular.woff);
+    font-weight: normal;
 }
 
 
@@ -30,7 +28,7 @@ ul {
 }
 
 .row {
-	text-align: center;
+    text-align: center;
 }
 
 .navbar-right {
@@ -209,9 +207,28 @@ ul {
 }
 
 .content-name {
-margin-top: 50px;
-    margin-left: 7%;
+	padding-right: 60px;
+	padding-left: 60px;
+    margin-top: 50px;
     margin-bottom: 15px;
+
+}
+
+.content-name>button {
+	color: #3EA3FF;
+	background: transparent;
+	padding: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 50px;
+	border: 1px solid #3EA3FF;
+	outline: none;
+	right: 0;
+	float: right;
+}
+
+.content-name>button>svg {
+	    margin-right: 14px;
 }
 
 .content-name label {
@@ -416,7 +433,7 @@ margin-top: 50px;
 
 
 .wrapper>span {
-	text-align: left;
+    text-align: left;
     font-size: 12px;
 }
 
@@ -438,7 +455,7 @@ margin-top: 50px;
 }
 
 .circle_info {
- 	position: absolute;
+    position: absolute;
     text-align: center !important;
     margin-left: 13px;
     padding: 0;
@@ -458,10 +475,64 @@ circle:nth-child(2n) {
     stroke-width: 3;
 }
 
-.row > div {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 10px;
-	margin-right: 10px;
+.row>div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
+.content-body-table {
+	width: 1017px;
+	margin-left: 7%;
+	box-shadow: 0px 0px 8px #bdbdbd94;
+	background-color: #fff;
+	padding: 20px 10px 10px 10px;
+	padding-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+table, th, td {
+    border-bottom: 1px solid #C2C2C2;
+    height: 40px;
+    color: #3EA3FF;
+    font-family: HelveticaRegular;
+    size: 12px;
+ 	vertical-align: middle;   
+}
+
+th:first-child{
+	width: 70px;
+}
+
+.table-content {
+	line-height: 17px;
+	font-size: 12px;
+}
+
+.control-buttons {
+	float: right;
+	display: inline;
+}
+.copy-button {
+	height: 17px;
+	width: 17px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	margin-right: 25px;
+}
+
+.trash-button {
+	height: 13px;
+	width: 17px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	margin-right: 25px;
 }
