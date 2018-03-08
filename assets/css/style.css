@@ -31,7 +31,9 @@ button {
 }
 
 a,
-a:hover {
+a:hover,
+a:focus,
+a:visited {
     text-decoration: none;
 }
 
@@ -232,10 +234,21 @@ a:hover {
     outline: none;
     right: 0;
     float: right;
+    transition: ease all .1s;
 }
 
 .content-name>button>svg {
     margin-right: 14px;
+}
+
+.content-name>button:hover {
+	color: #fff;
+	background: linear-gradient(120deg, #529EFC, #4773E1);
+	border: 1px solid transparent;
+}
+
+.content-name>button:hover #button-add-plus {
+	fill: #fff;
 }
 
 .content-name label {
@@ -664,9 +677,31 @@ th:first-child {
     width: 70px;
 }
 
+.tag-title {
+	color: #000;
+}
+
 .table-content {
     line-height: 17px;
     font-size: 12px;
+    color: #3EA3FF;
+}
+
+.tags {
+	width: 170px;
+}
+
+.tags > span {
+	color: #000;
+}
+
+.name {
+	width: 640PX;
+}
+
+.actually > span {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #3EA3FF;
 }
 
 .control-buttons {
@@ -690,4 +725,36 @@ th:first-child {
     outline: none;
     background-color: transparent;
     margin-right: 25px;
+}
+
+.first-content div div button:after {
+position: absolute;
+    margin-top: 6px;
+    margin-left: 5px;
+    /* margin-right: 25px; */
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.open > .first-content div div button:after {
+
+	transform: rotate(180deg);
+	}
+
+.close-icon:after {
+	position: absolute;
+    margin-top: 10px;
+    margin-left: -55px;
+    /* margin-right: 25px; */
+    content: "";
+    width: 17px;
+    height: 16px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/Shape.svg);
+    background-size: cover;
+    cursor: pointer;
 }

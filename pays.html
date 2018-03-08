@@ -181,7 +181,7 @@
                 <svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Сайт" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Сайт&gt;Виджеты" transform="translate(-1017.000000, -119.000000)" fill="#3EA3FF" fill-rule="nonzero">
-                            <g id="кнопка-добавить-воронку-" transform="translate(1004.000000, 109.000000)">
+                            <g id="button-add-plus" transform="translate(1004.000000, 109.000000)">
                                 <path d="M18.9869579,22 C19.2094208,22 19.4057116,21.9084974 19.5562012,21.7647076 C19.7001478,21.6209178 19.7917502,21.4183049 19.7917502,21.1960843 L19.7917502,16.7974237 L24.1952076,16.7974237 C24.4176706,16.7974237 24.6139614,16.7059211 24.764451,16.5621313 C24.9083976,16.4183415 25,16.2157286 25,15.993508 C25,15.5490668 24.6401335,15.1895923 24.2017507,15.1961282 L19.7982933,15.1961282 L19.7982933,10.7974675 C19.7982933,10.3530263 19.4384267,9.99355184 19.0000439,10.0000877 C18.5551181,10.0000877 18.1952516,10.3595622 18.2017946,10.7974675 L18.2017946,15.1961282 L13.7983372,15.1961282 C13.3534113,15.1961282 12.9935448,15.5556027 13.0000878,15.993508 C13.0000878,16.4379492 13.3599543,16.7974237 13.7983372,16.7908878 L18.2017946,16.7908878 L18.2017946,21.1895484 C18.1821655,21.6405255 18.542032,22 18.9869579,22 Z" id="Shape"></path>
                             </g>
                         </g>
@@ -192,17 +192,16 @@
             <div class="content-body-table first-content">
                 <div>
                     <div>
-                        <input type="text" name="" placeholder="Теги">
+                        
+                        <span class="close-icon"><input type="text" name="" placeholder="Теги"></span>
                         <a href="#">Магниты</a>
                         <a href="#">Трипвайеры</a>
                     </div>
                     <div>
                         <div class="dropdown">
                             <button class="" type="button" data-toggle="dropdown">Только актуальные записи
-                                <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
-
                                 <li><span class='search-icon-input'><input  type="text" name="" placeholder="Поиск"></span></li>
                                 <li><a href="#">Менее горячие новости</a></li>
                                 <li><a href="#">Какая-то херня</a></li>
@@ -216,90 +215,151 @@
                 <table>
                     <tr>
                         <th><span class="table-content">ID</span></th>
+                        <th><span class="table-content tag-title">Тэги</span></th>
                         <th><span class="table-content">Название</span></th>
+                        <th><span class="table-content">Актуальность</span></th>
                     </tr>
                     <tr>
                         <td><span class="table-content">3853<span class="table-content"></td>
-                        <td valign="top">
-                            <span class="table-content">http://likebz/Im_army1</span>
-                            <div class="control-buttons">
-                                <button class="copy-button">
-                                    <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Group-vijet" transform="translate(-904.000000, 0.000000)" fill="#8191B2">
-                                                <g id="Group">
-                                                    <g id="copy-symbol" transform="translate(904.000000, 0.000000)">
-                                                        <g id="copy-symbol-of-two-filled-paper-sheets">
-                                                            <path d="M17,5.17627026 C17,4.88230486 16.7592273,4.64500749 16.4609164,4.64500749 L12.7538185,4.64500749 C12.4555256,4.64500749 12.214735,4.40771012 12.214735,4.11374472 L12.214735,0.531262771 C12.214735,0.237297371 11.9739443,0 11.6756514,0 L7.80862534,0 C7.36120395,0 7,0.355946056 7,0.796894156 L7,3.57362757 C7.00718778,3.58071107 7.01617251,3.58779458 7.02336029,3.59664896 L10.1698293,6.69745266 C10.4267925,6.95068792 10.5633423,7.28715434 10.5615633,7.63070426 L10.5633603,7.63070426 L10.5633603,13 L16.1896137,13 C16.637035,13 16.998239,12.6440362 16.998239,12.2031058 L16.998239,5.17627026 L17,5.17627026 Z" id="Shape" fill-rule="nonzero"></path>
-                                                            <path d="M13.4991323,0.0860191341 C13.3158766,-0.0972963624 13,0.0314145181 13,0.292736609 L13,3.70747527 C13,3.86933895 13.1306323,4 13.2924603,4 L16.7064471,4 C16.9677117,4 17.0983635,3.68407329 16.9131386,3.5007578 L13.4991323,0.0860191341 Z" id="Shape" fill-rule="nonzero"></path>
-                                                            <path d="M0.808625337,17 L9.19137466,17 C9.63881402,17 10,16.6440362 10,16.2031058 L10,12.7357308 L10,9.2471053 C10,8.95312219 9.75920934,8.71584253 9.46091644,8.71584253 L7.50763702,8.71584253 L5.77358491,8.71584253 C5.475292,8.71584253 5.23450135,8.47854516 5.23450135,8.18457976 L5.23450135,7.36820597 L5.23450135,4.53126277 C5.23450135,4.23729737 4.99371069,4 4.69541779,4 L0.808625337,4 C0.361185984,4 0,4.35594606 0,4.63751532 L0,16.043727 C0,16.2031058 0.0251572327,16.3447759 0.0718778077,16.4687372 C0.199478886,16.8069745 0.481581312,17 0.808625337,17 Z" id="Shape" fill-rule="nonzero"></path>
-                                                            <path d="M6.29076912,8 L7.29173463,8 L9.70732002,8 C9.88292801,8 9.9980488,7.85763042 10,7.70745978 C10,7.63529985 9.9746344,7.56118966 9.91414721,7.50071185 L7.29366632,4.87957094 L6.49952799,4.0858118 C6.43904079,4.02535349 6.3668464,4 6.294652,4 C6.14442913,4 6.00002083,4.11701609 6.00002083,4.29254022 L6.00002083,7.70745978 C5.99808914,7.86933203 6.13077073,8 6.29076912,8 Z" id="Shape" fill-rule="nonzero"></path>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </button>
-                                <button class="trash-button">
-                                    <svg width="13px" height="17px" viewBox="0 0 13 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Group-vijet" transform="translate(-945.000000, 0.000000)" fill="#8191B2">
-                                                <g id="Group">
-                                                    <g id="rubbish-bin" transform="translate(945.000000, 0.000000)">
-                                                        <g id="Shape">
-                                                            <path d="M1.57893848,16.1712797 C1.59841244,16.6344611 1.9811328,17 2.44656469,17 L10.5534353,17 C11.0188672,17 11.4015876,16.6344611 11.4210615,16.1712797 L12,4 L1,4 L1.57893848,16.1712797 Z M8.33386841,7.02313156 C8.33386841,6.82919276 8.49177224,6.67189619 8.68659634,6.67189619 L9.25074981,6.67189619 C9.44544718,6.67189619 9.60347774,6.82915069 9.60347774,7.02313156 L9.60347774,13.9768684 C9.60347774,14.1708493 9.44557391,14.3281038 9.25074981,14.3281038 L8.68659634,14.3281038 C8.49185673,14.3281038 8.33386841,14.1709334 8.33386841,13.9768684 L8.33386841,7.02313156 Z M5.86523758,7.02313156 C5.86523758,6.82919276 6.02314141,6.67189619 6.21792326,6.67189619 L6.78207674,6.67189619 C6.9767741,6.67189619 7.13476242,6.82915069 7.13476242,7.02313156 L7.13476242,13.9768684 C7.13476242,14.1708493 6.97690083,14.3281038 6.78207674,14.3281038 L6.21792326,14.3281038 C6.02318365,14.3281038 5.86523758,14.1709334 5.86523758,13.9768684 L5.86523758,7.02313156 Z M3.39652226,7.02313156 C3.39652226,6.82919276 3.55442609,6.67189619 3.74920795,6.67189619 L4.31340366,6.67189619 C4.50814327,6.67189619 4.66608935,6.82915069 4.66608935,7.02313156 L4.66608935,13.9768684 C4.66608935,14.1708493 4.50818552,14.3281038 4.31340366,14.3281038 L3.74920795,14.3281038 C3.55446834,14.3281038 3.39652226,14.1709334 3.39652226,13.9768684 L3.39652226,7.02313156 Z" fill-rule="nonzero"></path>
-                                                            <path d="M12.4491724,0.847710487 L8.66874472,0.847710487 L8.66874472,0.17342554 C8.66874472,0.0776688599 8.58646219,0 8.48492204,0 L4.51507796,0 C4.41358051,0 4.33129798,0.0776688599 4.33129798,0.17342554 L4.33129798,0.847670203 L0.550827555,0.847670203 C0.246591406,0.847670203 0,1.08035451 0,1.36738284 L0,3 L13,3 L13,1.36742312 C13,1.08039479 12.7534086,0.847710487 12.4491724,0.847710487 Z" fill-rule="nonzero"></path>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </button>
-                            </div>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
                         </td>
                     </tr>
                     <tr>
                         <td><span class="table-content">3853<span class="table-content"></td>
-                        <td valign="baseline">
-                            <span class="table-content">http://likebz/Im_army1</span>
-                            <div class="control-buttons">
-                                <button class="copy-button">
-                                    <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Group-vijet" transform="translate(-904.000000, 0.000000)" fill="#8191B2">
-                                                <g id="Group">
-                                                    <g id="copy-symbol" transform="translate(904.000000, 0.000000)">
-                                                        <g id="copy-symbol-of-two-filled-paper-sheets">
-                                                            <path d="M17,5.17627026 C17,4.88230486 16.7592273,4.64500749 16.4609164,4.64500749 L12.7538185,4.64500749 C12.4555256,4.64500749 12.214735,4.40771012 12.214735,4.11374472 L12.214735,0.531262771 C12.214735,0.237297371 11.9739443,0 11.6756514,0 L7.80862534,0 C7.36120395,0 7,0.355946056 7,0.796894156 L7,3.57362757 C7.00718778,3.58071107 7.01617251,3.58779458 7.02336029,3.59664896 L10.1698293,6.69745266 C10.4267925,6.95068792 10.5633423,7.28715434 10.5615633,7.63070426 L10.5633603,7.63070426 L10.5633603,13 L16.1896137,13 C16.637035,13 16.998239,12.6440362 16.998239,12.2031058 L16.998239,5.17627026 L17,5.17627026 Z" id="Shape" fill-rule="nonzero"></path>
-                                                            <path d="M13.4991323,0.0860191341 C13.3158766,-0.0972963624 13,0.0314145181 13,0.292736609 L13,3.70747527 C13,3.86933895 13.1306323,4 13.2924603,4 L16.7064471,4 C16.9677117,4 17.0983635,3.68407329 16.9131386,3.5007578 L13.4991323,0.0860191341 Z" id="Shape" fill-rule="nonzero"></path>
-                                                            <path d="M0.808625337,17 L9.19137466,17 C9.63881402,17 10,16.6440362 10,16.2031058 L10,12.7357308 L10,9.2471053 C10,8.95312219 9.75920934,8.71584253 9.46091644,8.71584253 L7.50763702,8.71584253 L5.77358491,8.71584253 C5.475292,8.71584253 5.23450135,8.47854516 5.23450135,8.18457976 L5.23450135,7.36820597 L5.23450135,4.53126277 C5.23450135,4.23729737 4.99371069,4 4.69541779,4 L0.808625337,4 C0.361185984,4 0,4.35594606 0,4.63751532 L0,16.043727 C0,16.2031058 0.0251572327,16.3447759 0.0718778077,16.4687372 C0.199478886,16.8069745 0.481581312,17 0.808625337,17 Z" id="Shape" fill-rule="nonzero"></path>
-                                                            <path d="M6.29076912,8 L7.29173463,8 L9.70732002,8 C9.88292801,8 9.9980488,7.85763042 10,7.70745978 C10,7.63529985 9.9746344,7.56118966 9.91414721,7.50071185 L7.29366632,4.87957094 L6.49952799,4.0858118 C6.43904079,4.02535349 6.3668464,4 6.294652,4 C6.14442913,4 6.00002083,4.11701609 6.00002083,4.29254022 L6.00002083,7.70745978 C5.99808914,7.86933203 6.13077073,8 6.29076912,8 Z" id="Shape" fill-rule="nonzero"></path>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </button>
-                                <button class="trash-button">
-                                    <svg width="13px" height="17px" viewBox="0 0 13 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Group-vijet" transform="translate(-945.000000, 0.000000)" fill="#8191B2">
-                                                <g id="Group">
-                                                    <g id="rubbish-bin" transform="translate(945.000000, 0.000000)">
-                                                        <g id="Shape">
-                                                            <path d="M1.57893848,16.1712797 C1.59841244,16.6344611 1.9811328,17 2.44656469,17 L10.5534353,17 C11.0188672,17 11.4015876,16.6344611 11.4210615,16.1712797 L12,4 L1,4 L1.57893848,16.1712797 Z M8.33386841,7.02313156 C8.33386841,6.82919276 8.49177224,6.67189619 8.68659634,6.67189619 L9.25074981,6.67189619 C9.44544718,6.67189619 9.60347774,6.82915069 9.60347774,7.02313156 L9.60347774,13.9768684 C9.60347774,14.1708493 9.44557391,14.3281038 9.25074981,14.3281038 L8.68659634,14.3281038 C8.49185673,14.3281038 8.33386841,14.1709334 8.33386841,13.9768684 L8.33386841,7.02313156 Z M5.86523758,7.02313156 C5.86523758,6.82919276 6.02314141,6.67189619 6.21792326,6.67189619 L6.78207674,6.67189619 C6.9767741,6.67189619 7.13476242,6.82915069 7.13476242,7.02313156 L7.13476242,13.9768684 C7.13476242,14.1708493 6.97690083,14.3281038 6.78207674,14.3281038 L6.21792326,14.3281038 C6.02318365,14.3281038 5.86523758,14.1709334 5.86523758,13.9768684 L5.86523758,7.02313156 Z M3.39652226,7.02313156 C3.39652226,6.82919276 3.55442609,6.67189619 3.74920795,6.67189619 L4.31340366,6.67189619 C4.50814327,6.67189619 4.66608935,6.82915069 4.66608935,7.02313156 L4.66608935,13.9768684 C4.66608935,14.1708493 4.50818552,14.3281038 4.31340366,14.3281038 L3.74920795,14.3281038 C3.55446834,14.3281038 3.39652226,14.1709334 3.39652226,13.9768684 L3.39652226,7.02313156 Z" fill-rule="nonzero"></path>
-                                                            <path d="M12.4491724,0.847710487 L8.66874472,0.847710487 L8.66874472,0.17342554 C8.66874472,0.0776688599 8.58646219,0 8.48492204,0 L4.51507796,0 C4.41358051,0 4.33129798,0.0776688599 4.33129798,0.17342554 L4.33129798,0.847670203 L0.550827555,0.847670203 C0.246591406,0.847670203 0,1.08035451 0,1.36738284 L0,3 L13,3 L13,1.36742312 C13,1.08039479 12.7534086,0.847710487 12.4491724,0.847710487 Z" fill-rule="nonzero"></path>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </button>
-                            </div>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr><tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="table-content">3853<span class="table-content"></td>
+                        <td valign="top" class="tags">
+                            <span class="table-content">Трипвайеры</span>
+                        </td>
+                        <td valign="top" class="name">
+                            <span class="table-content">Книга "правда"</span>
+                        </td>
+                        <td valign="top" class="actually">
+                            <span class="table-content">Активен</span>
                         </td>
                     </tr>
                 </table>
