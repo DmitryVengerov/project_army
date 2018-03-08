@@ -242,13 +242,13 @@ a:visited {
 }
 
 .content-name>button:hover {
-	color: #fff;
-	background: linear-gradient(120deg, #529EFC, #4773E1);
-	border: 1px solid transparent;
+    color: #fff;
+    background: linear-gradient(120deg, #529EFC, #4773E1);
+    border: 1px solid transparent;
 }
 
 .content-name>button:hover #button-add-plus {
-	fill: #fff;
+    fill: #fff;
 }
 
 .content-name label {
@@ -604,28 +604,27 @@ circle:nth-child(2n) {
 }
 
 .caret {
-	background-image: url(assets/img/shape.png)
+    background-image: url(assets/img/shape.png)
 }
 
 .dropdown-menu>li>span>input {
-	border: none !important;
-    width: 213px !important;
+    border: none !important;
+    width: 208px !important;
     font-size: 14px;
     padding: 3px 11px !important;
     padding-bottom: 0px !important;
     padding-top: 0px !important;
-    padding-right: 30px !important; 
-    height: 20px !important;  
-
+    padding-right: 30px !important;
+    height: 20px !important;
 }
 
 .dropdown-menu>li> {
-	margin: 0px;
-	font-size: unset;
+    margin: 0px;
+    font-size: unset;
 }
 
 .search-icon-input:after {
-	position: absolute;
+    position: absolute;
     margin-top: 3px;
     top: 0;
     right: 0;
@@ -636,24 +635,31 @@ circle:nth-child(2n) {
     background-size: cover;
 }
 
-.dropdown-menu>li>span>input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: ;
+.dropdown-menu>li>span>input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: ;
 }
-.dropdown-menu>li>span>input::-moz-placeholder { /* Firefox 19+ */
-  color: pink;
+
+.dropdown-menu>li>span>input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: pink;
 }
-.dropdown-menu>li>span>input:-ms-input-placeholder { /* IE 10+ */
-  color: pink;
+
+.dropdown-menu>li>span>input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: pink;
 }
-.dropdown-menu>li>span>input:-moz-placeholder { /* Firefox 18- */
-  color: pink;
+
+.dropdown-menu>li>span>input:-moz-placeholder {
+    /* Firefox 18- */
+    color: pink;
 }
 
 
 
 
 .dropdown-menu>li:first-child {
-	border-bottom: 1px solid #EFF0F3;
+    border-bottom: 1px solid #EFF0F3;
 }
 
 table {
@@ -678,30 +684,31 @@ th:first-child {
 }
 
 .tag-title {
-	color: #000;
+    color: #000;
 }
 
 .table-content {
     line-height: 17px;
     font-size: 12px;
     color: #3EA3FF;
+    margin-right: 20px;
 }
 
 .tags {
-	width: 170px;
+    width: 170px;
 }
 
-.tags > span {
-	color: #000;
+.tags>span {
+    color: #000;
 }
 
 .name {
-	width: 640PX;
+    width: 640PX;
 }
 
-.actually > span {
-	padding-bottom: 2px;
-	border-bottom: 1px solid #3EA3FF;
+.actually>span {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #3EA3FF;
 }
 
 .control-buttons {
@@ -728,7 +735,7 @@ th:first-child {
 }
 
 .first-content div div button:after {
-position: absolute;
+    position: absolute;
     margin-top: 6px;
     margin-left: 5px;
     /* margin-right: 25px; */
@@ -741,13 +748,13 @@ position: absolute;
     cursor: pointer;
 }
 
-.open > .first-content div div button:after {
+.open>.first-content div div button:after {
 
-	transform: rotate(180deg);
-	}
+    transform: rotate(180deg);
+}
 
 .close-icon:after {
-	position: absolute;
+    position: absolute;
     margin-top: 10px;
     margin-left: -55px;
     /* margin-right: 25px; */
@@ -757,4 +764,156 @@ position: absolute;
     background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/Shape.svg);
     background-size: cover;
     cursor: pointer;
+}
+
+.first-content div div .students-toggle:after {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 100px;
+    /* margin-right: 25px; */
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.students-toggle {
+    margin-right: 25px !important;
+    height: 32px;
+	border-radius: 3px;
+	border:1px solid #E7E9EE; 
+	color: #000;
+	width: 90%;
+	text-align: left;
+}
+
+.students-toggle:after {
+position: absolute;
+    margin-top: 3px;
+    margin-left: 94px;
+    margin-right: 40px;
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.toggle1:after {
+position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.toggle2:after {
+position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    right: 16px;
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+
+.students div div a {
+	margin-right: 30px !important;
+	margin-left: 0px !important;
+	border: none;
+}
+
+.students div div .additional-fields {
+	margin-right: 130px !important;
+}
+
+.table-content-title_avatar {
+	width: 58px;
+}
+
+.table-content-title_name {
+	width: 91px;
+}
+
+.table-content-title_mail {
+	width: 160px;
+}
+.table-content-title_type {
+	width: 97px;
+}
+
+.table-content-title_status {
+	width: 93px;
+}
+
+.june-project {
+	width: 75px;
+}
+
+.june-project-2 {
+	width: 92px;
+}
+
+.project-wrap {
+	width: 50px;
+}
+.black-title {
+	color: #000 !important;
+}
+
+.input-control td {
+	border:none;
+	height: 60px;
+}
+
+.table-control_name {
+	width: 80px;
+	height: 32px;
+	border-radius: 3px;
+	border:1px solid #E7E9EE; 
+}
+
+.table-control_mail {
+	width: 150px;
+	height: 32px;
+	border-radius: 3px;
+	border:1px solid #E7E9EE; 	
+}
+
+.crumbs {
+	padding-bottom: 5px;
+	margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.crumbs > a {
+	margin-right: 42px;
+	color: #000;
+}
+
+.crumbs > a:hover {
+	color: #3EA3FF;
+	padding-bottom: 7px;
+	border-bottom: 2px solid #3EA3FF;	
 }
