@@ -7,6 +7,7 @@
 body {
     background-color: #F6F7FA;
     margin-top: 60px;
+    font-family: HelveticaRegular;
 }
 
 p {
@@ -28,6 +29,9 @@ ul {
 input,
 button {
     outline: none;
+    background: transparent;
+    border:none;
+    
 }
 
 a,
@@ -37,7 +41,14 @@ a:visited {
     text-decoration: none;
 }
 
-.row {
+h4,h6 {
+    text-align: left;
+    padding-left: 20px;
+     font-family: HelveticaRegular;
+}
+
+
+.row { 
     text-align: center;
 }
 
@@ -924,6 +935,7 @@ th:first-child {
     color: #000 !important;
     border: none !important;
     margin-right: 30px;
+
 }
 
 .add-btn:after {
@@ -989,4 +1001,185 @@ th:first-child {
     right: 0;
     float: right;
     transition: ease all .1s;
+}
+
+.main-content {
+    width: 708px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+.right-panel {
+    margin-top: 30px;
+    width: 299px;
+}
+
+.gear {
+
+    margin-right: 20px;
+    }
+
+.main-content_grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content_grid .lesson-card {
+    width: 167px;
+    height: 129px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px #bdbdbd94;
+    text-align: left;
+}
+
+.lesson-card div {
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(120deg, #AF99EA, #99EAFA);
+}
+
+.lesson-card p {
+    margin-left: 10px;
+    padding: 0px;
+}
+.main-content_grid div div {
+
+}
+
+.main-content_title {
+    margin-top: 30px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.temp-img {
+    display: inline-flex;
+
+    padding: 20px;
+    height: 149px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background: linear-gradient(40deg, #72D6BD, #A8EA81);
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px #bdbdbd94;
+}
+
+.temp-img_icon {
+    width: 64px;
+    margin-bottom: 30px;
+    /* margin-left: -180px; */
+    display:  flex;
+    align-items:  center;
+    justify-content:  center;
+
+}
+
+.temp-img h4 {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.temp-img h6 {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.btn-download {
+    border: 1px solid #fff !important;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 13px;
+}
+
+.event-shed div {
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.event-shed div:hover {
+    background-color: #e6e7e8;
+    border-radius: 3px;
+}
+
+.event-shed  {
+    margin-bottom: 10px
+}
+
+.event-shed div:after {
+    position: absolute;
+margin-top: -15px;
+    margin-left: 20px;
+    /* margin-right: 25px; */
+    content: "";
+    width: 18px;
+    height: 16px;
+    transform: rotate(-90deg);
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.event-shed_link {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -130px;
+        color: #8191B2;
+    font-size: 12px;
+    border-bottom: 1px solid #8191B2;
+}
+.temp-img_icon svg {
+    position: absolute;
+}
+
+.tree-elements{
+    margin-right:20px;
+    margin-left: 20px;
+        padding-bottom: 4px
+}
+
+.tree-elements a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.plus-button {
+    position: absolute;
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 50px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(140deg, #53A0FD, #3023AE);
+    box-shadow: 5px 5px 8px #bdbdbdba; 
+}
+
+.plus-button:after{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+    content: "";
+    width: 18px;
+    height: 16px;
+    transform: rotate(-90deg);
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/plus-whitw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;  
+    
 }
