@@ -7,3 +7,16 @@ var Circle = function (sel) {
   })
 }
 Circle('.circle')
+
+var arr = [1, 1]
+arr[4] = 1
+console.log(arr[7] = undefined)
+console.log(arr)
+
+function f () {
+  this.a = 1
+  return function () {
+    console.log(this.a)
+  }
+}
+(new f())()
