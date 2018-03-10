@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="11px" viewBox="0 0 20 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>стрелка вниз</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="89.15625" y="-0.0625" width="9.6875" height="18.125" id="rect-1"></rect>
+    </defs>
+    <g id="Обучение" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Обучение&gt;Тренинг&gt;Уроки" transform="translate(-995.000000, -120.000000)">
+            <g id="инструменты-настроек-курсов-" transform="translate(755.000000, 109.000000)">
+                <g id="действия" transform="translate(156.000000, 8.000000)">
+                    <g id="стрелка-вниз" transform="translate(94.000000, 9.000000) scale(-1, 1) rotate(270.000000) translate(-94.000000, -9.000000) ">
+                        <image x="89.15625" y="-0.0625" width="9.6875" height="18.125" xlink:href="data:image/png;base64,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"></image>
+                        <use fill="#000000" fill-rule="evenodd" xlink:href="#rect-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
