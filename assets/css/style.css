@@ -104,8 +104,8 @@ h6 {
 }
 
 .avatar {
-    height: 35px;
-    width: 35px;
+    height: 34px;
+    width: 34px;
     border-radius: 50px;
     margin: 0px 10px 0px 10px;
 }
@@ -1257,7 +1257,6 @@ th:first-child {
     width: 100%;
     margin: 0;
     margin-bottom: 5px;
-
 }
 
 .content-user-info {
@@ -1265,25 +1264,24 @@ th:first-child {
 }
 
 .task-list-content_block div {
-    display: inline-block;
-    margin-bottom: 12px;
-
+    display: flex;
+    margin-bottom: 5px;
 }
 
 .content-user-info .avatar {
     margin-right: 25px;
 }
 
-.task-list-content_block {
-    
-}
+.task-list-content_block {}
 
 .tast-awaits-check {
     background-color: #E3F1FF;
     padding: 2px 10px;
+    height: 22px;
+    width: 176px;
+    text-align: center;
     border-radius: 50px;
     font-size: 12px;
-
 }
 
 .project-stage {
@@ -1317,7 +1315,7 @@ th:first-child {
     margin-left: 10px;
     font-size: 12px;
 }
- 
+
 .task-check a {
     border-bottom: 1px solid #3EA3FF;
     padding-bottom: 1px;
@@ -1331,10 +1329,10 @@ th:first-child {
 }
 
 .tasks div {
-  border: 1px solid #E7E9EE;
-  width: 500px;
-  padding: 10px 20px;
-  font-size: 12px;   
+    border: 1px solid #E7E9EE;
+    width: 500px;
+    padding: 10px 20px;
+    font-size: 12px;
 }
 
 .tasks img {
@@ -1348,6 +1346,10 @@ th:first-child {
 
 .input--comments {
     padding: 5px 25px;
+    padding-right: 5PX;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0px !important;
 }
 
 .input--comments input {
@@ -1362,7 +1364,7 @@ th:first-child {
 .btn-cnl {
     margin-top: 20px;
     margin-bottom: 20px;
-        margin-right: 20px;
+    margin-right: 20px;
     color: #3EA3FF;
     background: transparent;
     padding: 5px;
@@ -1377,12 +1379,11 @@ th:first-child {
 }
 
 .btn-app {
-        margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
-
     color: #FFF;
-background: linear-gradient(45deg, #529EFC, #4773E1);
-padding: 5px;
+    background: linear-gradient(45deg, #529EFC, #4773E1);
+    padding: 5px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 50px;
@@ -1391,17 +1392,141 @@ padding: 5px;
     float: right;
     transition: ease all .1s;
 }
- 
+
+.photo-camera {
+    width: 22px;
+    height: 18px;
+    background: url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/camera.svg) no-repeat;
+    margin-right: 12px;
+    margin-right: 12px;
+    margin-left: 35px;
+}
+
+.smile-face {
+    width: 22px;
+    height: 20px;
+    background: url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/smile.svg) no-repeat;
+}
 
 
 
 
+/* TEST */
+
+.filler-checkbox:disabled+.filler-label {
+    opacity: 0.4;
+}
+
+.filler-checkbox:focus+.filler-label {
+    -webkit-box-shadow: 0 0 5px 3px #29b0d9;
+    box-shadow: 0 0 5px 3px #29b0d9;
+}
+
+.filler-checkbox:checked+.filler-label>.filler-checked::before,
+.filler-checkbox:checked+.filler-label>.filler-checked::after {
+    display: block;
+}
+
+
+.filler-label span {
+    font-size: 12px;
+}
 
 
 
+.filler-label {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.filler-label a {
+    border-bottom: 1px solid #3EA3FF;
+    padding-bottom: 1px;
+    color: #3EA3FF;
+}
+
+.filler-checked {
+    transition: .1s;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    font-size: 0;
+    line-height: 0;
+    border-radius: 3px;
+
+    border: 1px solid #000;
+}
+
+.filler-checkbox:checked+.filler-label>.filler-checked {
+    border: 1px solid transparent;
+    background-color: #3EA3FF;
+}
+
+.couch {
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.filler-checked::before,
+.filler-checked::after {
+    content: "";
+    position: absolute;
+    display: none;
+    font-size: 0;
+    line-height: 0;
+}
+
+.filler-checked::before {
+    right: 1px;
+    top: 6px;
+    width: 8px;
+    height: 2px;
+    border-radius: 0px;
+    background: #fff;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.filler-checked::after {
+    top: 7px;
+    right: 6px;
+    width: 5px;
+    height: 2px;
+    border-radius: 0px;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.filler-checkbox:focus+.filler-label {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    margin: -1px;
+    padding: 0;
+    white-space: nowrap;
+    border: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+}
 
 
-
-
-
-
+.content-user-info_name {
+    display: block !important;
+}
