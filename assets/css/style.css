@@ -27,10 +27,12 @@ ul {
 }
 
 input,
-button {
+button,
+textarea {
     outline: none;
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 
 a,
@@ -1434,12 +1436,9 @@ th:first-child {
     display: block;
 }
 
-
 .filler-label span {
     font-size: 12px;
 }
-
-
 
 .filler-label {
     margin-bottom: 10px;
@@ -1468,7 +1467,6 @@ th:first-child {
     font-size: 0;
     line-height: 0;
     border-radius: 3px;
-
     border: 1px solid #000;
 }
 
@@ -1514,6 +1512,65 @@ th:first-child {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+
+
+.filler-checkbox:checked+.filler-label>.create-form::before,
+.filler-checkbox:checked+.filler-label>.create-form::after {
+    display: block;
+}
+
+.create-form {
+    transition: .1s;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    font-size: 0;
+    line-height: 0;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+.filler-checkbox:checked+.filler-label>.create-form {
+    border: 1px solid transparent;
+    background-color: #3EA3FF;
+}
+
+
+.create-form::before,
+.create-form::after {
+    content: "";
+    position: absolute;
+    display: none;
+    font-size: 0;
+    line-height: 0;
+}
+
+.create-form::before {
+    right: 1px;
+    top: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background: #fff;
+}
+
+.create-form::after {
+    top: 3px;
+    right: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 2px;
+    background: #3EA3FF;
+}
+
+
+
+
+
 
 .filler-checkbox:focus+.filler-label {
     -webkit-box-shadow: none;
@@ -1649,4 +1706,60 @@ th:first-child {
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
+}
+
+.without-right-menu {
+    margin-right: 333px !important;
+}
+
+.main-content_grid .tasks {
+    margin-left: 0px;
+    text-align: left;
+}
+
+.main-content_grid .tasks > input,textarea {
+    min-width: 500px;
+    padding: 8px 24px;
+}
+
+.main-content_grid .tasks > input {
+    border-bottom: 1px solid #E7E9EE;
+    margin-bottom: 30px;
+}
+
+.main-content_grid .tasks > textarea {
+    max-width: 500px;
+    min-height: 50px;
+        margin-bottom: 30px;
+    border: 1px solid #E7E9EE;
+}
+
+.left-align {
+    margin-left: 65%;
+}
+
+.tasks .dropdown {
+    width: 236px;
+    height: auto;
+    padding: 8px 5px;
+}
+
+.dropdawns-menus {
+    padding: 0px !important;
+    display: inline;
+    border:none !important;
+
+}
+
+.dropdawns-menus div {
+    display: inline-block !important;
+        margin-bottom: 30px;
+}
+
+.dropdawns-menus div:first-child {
+    margin-right: 25px;
+}
+
+.dropdawns-menus div:last-child {
+    width: 237px;
 }
