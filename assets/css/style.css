@@ -1724,9 +1724,8 @@ th:first-child {
     text-align: left;
 }
 
-.main-content_grid .tasks>input,
-textarea {
-    min-width: 500px;
+.main-content_grid .tasks>input,textarea {
+    width: 500px;
     padding: 8px 24px;
 }
 
@@ -2046,9 +2045,14 @@ figure span {
         width: 95%;
         margin-left: 10px;
     }
-
+    .navbar-inverse .navbar-toggle {
+        border: none;
+    }
 
     body {
         background-color: #fff;
+    }
+    .main-content_grid .tasks>input, textarea {
+        width: auto;
     }
 }
