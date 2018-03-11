@@ -2021,6 +2021,13 @@ figure span {
     .content-body-table {
         width: 100%;
     }
+    .bread-point {
+        margin-left: 10px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
     video {
         width: 100%;
     }
