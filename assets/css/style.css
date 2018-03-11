@@ -2007,4 +2007,10 @@ width: 334px;
     .content-name {
         display: none;
     }
+    .row>div {
+        margin:0px;
+    }
+    .profile-card, .profile_links  {
+        display: none;
+    }
 }
