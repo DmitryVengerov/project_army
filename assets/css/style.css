@@ -1429,6 +1429,8 @@ th:first-child {
 
 
 
+
+
 /* TEST */
 
 .filler-checkbox:disabled+.filler-label {
@@ -1852,7 +1854,6 @@ figure span {
 
 .file-upload input[type="file"] {
     display: none;
-
 }
 
 
@@ -1890,7 +1891,7 @@ figure span {
 }
 
 .upload-file-title {
-    margin-left: 0px !important; 
+    margin-left: 0px !important;
 }
 
 .url {
@@ -1906,10 +1907,12 @@ figure span {
     color: #fff;
     background: linear-gradient(45deg, #529EFC, #4773E1);
 }
+
 .lessons-upload_hint {
     margin-left: 30px;
     color: #747474;
 }
+
 .lessons-p {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1935,7 +1938,6 @@ figure span {
 
 .less-title {
     margin-bottom: 90px;
-
 }
 
 .with-clock:before {
@@ -1946,5 +1948,60 @@ figure span {
     height: 17px;
     background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/clock.svg);
     background-size: contain;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+    .left-nav {
+        display: none;
+    }
+    .navbar-form {
+        display: none;
+    }
+    .right-panel {
+        display: none !important;
+    }
+    .main-content_title:last-child {
+        display: none !important;
+    }
+
+    .main-content_title {
+        margin-top: 0px;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .main-content_grid .lesson-card {
+width: 334px;
+    height: 415px;
+    margin:10px;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .plus-button {
+        display: none;
+    }
+    .lesson-card div {
+        border-radius: 8px;
+        height: 334px;
+        margin-bottom: 10px;
+    }
+    .lesson-card p {
+        font-size: 14px;
+    }
+    .main-content_title-right {
+        display: none;
+    }
+    .main-content_title h2 {
+        margin-left: 10px;
+    }
 }
