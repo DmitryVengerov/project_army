@@ -1431,6 +1431,7 @@ th:first-child {
 
 
 
+
 /* TEST */
 
 .filler-checkbox:disabled+.filler-label {
@@ -1975,15 +1976,15 @@ figure span {
     }
 
     .main-content_title {
-        margin-top: 0px;
+        margin-top: 25px;
     }
     .navbar-brand {
         display: none;
     }
     .main-content_grid .lesson-card {
-width: 334px;
-    height: 415px;
-    margin:10px;
+        width: 334px;
+        height: 415px;
+        margin: 10px;
         box-shadow: none;
         background-color: transparent;
     }
@@ -2008,13 +2009,22 @@ width: 334px;
         display: none;
     }
     .row>div {
-        margin:0px;
+        margin: 0px;
     }
-    .profile-card, 
-    .profile_links  {
+    .profile-card,
+    .profile_links {
         display: none;
     }
     .wrapper {
         display: none;
+    }
+    .content-body-table {
+        width: 100%;
+    }
+    video {
+        width: 100%;
+    }
+    body {
+        background-color: #fff;
     }
 }
