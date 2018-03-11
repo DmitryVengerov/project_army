@@ -2010,7 +2010,11 @@ width: 334px;
     .row>div {
         margin:0px;
     }
-    .profile-card, .profile_links  {
+    .profile-card, 
+    .profile_links  {
+        display: none;
+    }
+    .wrapper {
         display: none;
     }
 }
