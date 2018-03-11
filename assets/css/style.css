@@ -2004,4 +2004,7 @@ width: 334px;
     .main-content_title h2 {
         margin-left: 10px;
     }
+    .content-name {
+        display: none;
+    }
 }
