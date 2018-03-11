@@ -2014,7 +2014,7 @@ figure span {
     }
     .lessons-title_about {
         margin-left: 10px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
     .lessons-title_about span {
         margin-right: 15px;
@@ -2061,4 +2061,9 @@ figure span {
         height: 27px;
     }
     .filler-checked {padding-left: 12px;}
+    .lessons-p {
+        margin-left: 10PX;
+    }
+    .tasks h5, p {margin-left: 10px;}
+    .tasks p {margin-left: 0px !important;}
 }
