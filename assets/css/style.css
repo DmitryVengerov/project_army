@@ -1433,6 +1433,7 @@ th:first-child {
 
 
 
+
 /* TEST */
 
 .filler-checkbox:disabled+.filler-label {
@@ -1725,7 +1726,8 @@ th:first-child {
     text-align: left;
 }
 
-.main-content_grid .tasks>input,textarea {
+.main-content_grid .tasks>input,
+textarea {
     width: 500px;
     padding: 8px 24px;
 }
@@ -2053,17 +2055,38 @@ figure span {
     body {
         background-color: #fff;
     }
-    .main-content_grid .tasks>input, textarea {
+    .main-content_grid .tasks>input,
+    textarea {
         width: auto;
     }
     .bell {
         width: 23px;
         height: 27px;
     }
-    .filler-checked {padding-left: 12px;}
+    .filler-checked {
+        padding-left: 12px;
+    }
     .lessons-p {
         margin-left: 10PX;
     }
-    .tasks h5, p {margin-left: 10px;}
-    .tasks p {margin-left: 0px !important;}
+    .tasks h5,
+    p {
+        margin-left: 10px;
+    }
+    .tasks p {
+        margin-left: 0px !important;
+    }
+    .navbar-collapse {
+        border-top: none;
+        box-shadow: none;
+    }
+    .navbar-toggle button {
+        background: transparent;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background: transparent; }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        height: 100vh;
+    border-color: #101010;
+    color: #fff;
+    }
 }
