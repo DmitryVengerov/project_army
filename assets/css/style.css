@@ -10,6 +10,12 @@ body {
     font-family: HelveticaRegular;
 }
 
+figure {
+    display: flex;
+    align-items: center;
+}
+
+
 p {
     color: #000;
     font-size: 12px;
@@ -1420,6 +1426,8 @@ th:first-child {
 
 
 
+
+
 /* TEST */
 
 .filler-checkbox:disabled+.filler-label {
@@ -1567,11 +1575,6 @@ th:first-child {
     background: #3EA3FF;
 }
 
-
-
-
-
-
 .filler-checkbox:focus+.filler-label {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1622,12 +1625,12 @@ th:first-child {
     margin-left: 0px;
 }
 
-.stages a{
+.stages a {
     font-size: 12px;
     margin-right: 44px;
-} 
+}
 
-.stages a:last-child{
+.stages a:last-child {
     margin-right: 0px;
 }
 
@@ -1658,7 +1661,7 @@ th:first-child {
     margin-top: 20px;
 }
 
-.right-panel_header button{
+.right-panel_header button {
     margin-top: 0px;
     margin-bottom: 37px;
     display: inline-block;
@@ -1717,20 +1720,21 @@ th:first-child {
     text-align: left;
 }
 
-.main-content_grid .tasks > input,textarea {
+.main-content_grid .tasks>input,
+textarea {
     min-width: 500px;
     padding: 8px 24px;
 }
 
-.main-content_grid .tasks > input {
+.main-content_grid .tasks>input {
     border-bottom: 1px solid #E7E9EE;
     margin-bottom: 30px;
 }
 
-.main-content_grid .tasks > textarea {
+.main-content_grid .tasks>textarea {
     max-width: 500px;
     min-height: 50px;
-        margin-bottom: 30px;
+    margin-bottom: 30px;
     border: 1px solid #E7E9EE;
 }
 
@@ -1747,13 +1751,12 @@ th:first-child {
 .dropdawns-menus {
     padding: 0px !important;
     display: inline;
-    border:none !important;
-
+    border: none !important;
 }
 
 .dropdawns-menus div {
     display: inline-block !important;
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .dropdawns-menus div:first-child {
@@ -1762,4 +1765,132 @@ th:first-child {
 
 .dropdawns-menus div:last-child {
     width: 237px;
+}
+
+
+.icon-wall {
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none !important;
+    width: 23px !important;
+    height: 23px !important;
+    padding: 0px !important;
+    background-repeat: no-repeat;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/wall-icon.png);
+}
+
+.icon-audio {
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none !important;
+    padding: 0px !important;
+    width: 23px !important;
+    height: 20px !important;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/headphone-symbol.png);
+}
+
+.icon-menu {
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none !important;
+    padding: 0px !important;
+    width: 23px !important;
+    height: 18px !important;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/menu-left.png);
+}
+
+.icon-speaker {
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none !important;
+    padding: 0px !important;
+    width: 23px !important;
+    height: 18px !important;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/audio-speaker.png);
+}
+
+.icon-play {
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none !important;
+    padding: 0px !important;
+    width: 23px !important;
+    height: 17px !important;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/start-button.png);
+}
+
+figure span {
+    margin-left: 0;
+    font-size: 12px;
+}
+
+.input-in {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dropdown button {
+    width: 100%;
+    text-align: left;
+}
+
+.info-lines {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.info-lines p {
+    padding-top: 5px;
+    margin: 0px !important;
+}
+
+.info-lines span {
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+
+}
+
+
+
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    width: 130px !important;
+    height: 31px;
+    padding: 0px;
+    background: transparent;
+    border: 1px solid #529EFC !important;
+    border-radius: 50px;
+    color: #529EFC;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+
+.file-upload label {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: -4px;
+    left: 0;
+    cursor: pointer;
+}
+
+.upload-file-title {
+    margin-left: 0px !important; 
+}
+
+
+.file-upload span {
+    line-height: 40px;
 }

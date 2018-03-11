@@ -178,96 +178,40 @@
         <div class="container">
             <div class="row">
                 <div class="main-content without-right-menu">
-                    <div class="bread-point">
-                        <span>Тренинги</span>
-                        <span>Проект Армия. Ступень 1 </span>
-                    </div>
                     <div class="main-content_title">
                         <div>
-                            <h2>Проект Армия Ступения 1</h2></div>
-                    </div>
-                    <div class="crumbs stages">
-                        <a href="">Содержание</a>
-                        <a href="">Настройки</a>
-                        <a href="">Доступ</a>
-                        <a href="">Расписание</a>
-                        <a href="">Ученики</a>
-                        <a href="">Статистика</a>
-                        <a href="">Достижение</a>
+                            <h2>Cоздание курса</h2></div>
                     </div>
                     <div class="main-content_grid">
                         <div class="content-body-table tasks">
                             <input type="" name="" placeholder="Введите описание">
                             <textarea placeholder="Введите описание"></textarea>
-                            <div class="dropdawns-menus">
-                                <div class="dropdown">
-                                    <button class="" type="button" data-toggle="dropdown">Основной преподаватель
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><span class='search-icon-input'><input  type="text" name="" placeholder="Поиск"></span></li>
-                                        <li><a href="#">Менее горячие новости</a></li>
-                                        <li><a href="#">Какая-то херня</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown">
-                                    <button class="" type="button" data-toggle="dropdown">Основной преподаватель
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><span class='search-icon-input'><input  type="text" name="" placeholder="Поиск"></span></li>
-                                        <li><a href="#">Менее горячие новости</a></li>
-                                        <li><a href="#">Какая-то херня</a></li>
-                                    </ul>
-                                </div>
+                            <div class="dropdown">
+                                <button class="" type="button" data-toggle="dropdown">Основной преподаватель
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><span class='search-icon-input'><input  type="text" name="" placeholder="Поиск"></span></li>
+                                    <li><a href="#">Менее горячие новости</a></li>
+                                    <li><a href="#">Какая-то херня</a></li>
+                                </ul>
                             </div>
-                            <input type="checkbox" id="constructor" class="visually-hidden filler-checkbox">
-                            <label for="constructor" class="filler-label">
-                                <span class="create-form"></span>
-                                <figure>
-                                    <div class="icon-wall"></div>
-                                    <span>Конструктор</span>
-                                </figure>
-                            </label>
-                            <input type="checkbox" id="webinar" class="visually-hidden filler-checkbox">
-                            <label for="webinar" class="filler-label">
-                                <span class=" create-form"></span>
-                                <figure>
-                                    <div class="icon-audio"></div>
-                                    <div class="info-lines">
-                                        <span>Вебинар</span>
-                                        <p>Онлайн-вебинар, проходящий в определенное время</p>
-                                    </div>
-                                </figure>
-                            </label>
-                            <input type="checkbox" id="text" class="visually-hidden filler-checkbox">
-                            <label for="text" class="filler-label">
-                                <span class=" create-form"></span>
-                                <figure>
-                                    <div class="icon-menu"></div>
-                                    <div  class="info-lines">
-                                        <span>Текстовый урок</span>
-                                        <p>Текстовая информация, с возможностью приложить файлы</p>
-                                    </div>
-                                </figure>
-                            </label>
-                            <input type="checkbox" id="audio" class="visually-hidden filler-checkbox">
-                            <label for="audio" class="filler-label">
-                                <span class="create-form"></span>
-                                <div class="icon-speaker"></div>
-                                <div  class="info-lines">
-                                    <span>Аудио урок</span>
-                                    <p>Аудиофайл, проигрывающийся в браузере</p>
-                                </div>
-                                
-                            </label>
-                            <input type="checkbox" id="video" class="visually-hidden filler-checkbox">
-                            <label for="video" class="filler-label">
-                                <span class="create-form"></span>
-                                <div class="icon-play"></div>
-                                                                <div  class="info-lines">
-                                <span>Видео урок</span>
-                                <p>Видеофайл, проигрывающийся в браузере</p>
+                            <div class="dropdown input-in">
+                                <button class="" type="button" data-toggle="dropdown">Поместить в
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><span class='search-icon-input'><input  type="text" name="" placeholder="Поиск"></span></li>
+                                    <li><a href="#">Менее горячие новости</a></li>
+                                    <li><a href="#">Какая-то херня</a></li>
+                                </ul>
                             </div>
-                            </label>
+                            <p class="upload-file-title">Выберите фото обложки: </p>
+                            <div class="file-upload">
+                                <label>
+                                    <input type="file" name="file" onchange="getFileName ();" id="uploaded-file">
+                                    <span>Выберите файл</span>
+                                </label>
+                            </div>
+ 
                         </div>
                     </div>
                     <button class="btn-app">Сохранить</button>
