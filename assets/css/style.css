@@ -129,6 +129,7 @@ h6 {
 .bell {
     margin-right: 10px;
     vertical-align: middle;
+    background: url('img/bell.png');
 }
 
 .bell-wrapper {
@@ -2055,4 +2056,9 @@ figure span {
     .main-content_grid .tasks>input, textarea {
         width: auto;
     }
+    .bell {
+        width: 23px;
+        height: 27px;
+    }
+    .filler-checked {padding-left: 12px;}
 }

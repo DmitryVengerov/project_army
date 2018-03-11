@@ -20,10 +20,10 @@
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-header">
-                            <div class="bell-wrapper">
-                    <input type="image" src='assets/img/bell.png' class="arrow-dropdawn bell" name="">
-                    <span class="alert-dot"></span>
-                </div>
+            <div class="bell-wrapper">
+                <button class="bell"></button>
+                <span class="alert-dot"></span>
+            </div>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -208,7 +208,8 @@
                             <p>Правила, это часть фундамента, на котором будет выстраиваться твой путь в Проекте. Внимательно изучи правила и следуй им до завершения Проекта. </p>
                             <input type="checkbox" id="task1" class="visually-hidden filler-checkbox">
                             <label for="task1" class="filler-label">
-                                <span class="filler-checked"></span> <span>Скачать, распечатать или переписать и повесить на видное место</span><a href="#">правила Проекта Армия</a>
+                                <span class="filler-checked"></span>
+                                <span>Скачать, распечатать или переписать и повесить на видное место <a href="#">правила Проекта Армия</a></span>
                             </label>
                             <button class="btn-cnl">Сохранить</button>
                         </div>
@@ -217,8 +218,8 @@
                             <p>Размести присягу на своих страницах в социальных сетях (VK, Instagram, FB). Присяга - это еще одна часть нерушимого фундамента Проекта. Подумай, готов ли ты соблюдать все правила, укзаные в присяге. Если да - действуй, подпиши и выполни все необходимые действия (размести в соц. сетях и повесь на видное место)</p>
                             <input type="checkbox" id="task2" class="visually-hidden filler-checkbox">
                             <label for="task2" class="filler-label">
-                                <span class="filler-checked"></span> Скачать, распечатать или переписать и повесить на видное место
-                                <br><a href="#">присягу Проекта Армия</a>
+                                <span class="filler-checked"></span> <span>Скачать, распечатать или переписать и повесить на видное место <a href="#">присягу Проекта Армия</a></span>
+                                
                             </label>
                             <div>
                                 Текст Присяги: Я, Фамилия Имя, принимаю #ПрисягаПроектАрмия, поэтому до 25.09.2018 г.
@@ -237,7 +238,6 @@
                                     <input type="file" name="file" onchange="getFileName ();" id="uploaded-file">
                                     <span>Выберите файл</span>
                                 </label>
-
                             </div>
                             <span class="lessons-upload_hint">максимальный размер файла - 100мб</span>
                             <button class="btn-cnl left-align">Вернуться</button>
@@ -246,7 +246,6 @@
                 </div>
                 <div class="right-panel">
                     <div class="right-panel_header less-title">
-
                     </div>
                     <div class="temp-img">
                         <div class="temp-img_icon">
