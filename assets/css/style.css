@@ -1016,6 +1016,7 @@ th:first-child {
 .main-content {
     width: 708px;
     margin-right: 12px;
+    text-align: left;
     display: inline-block;
 }
 
@@ -1166,7 +1167,7 @@ th:first-child {
 }
 
 .plus-button {
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     width: 33px;
     height: 33px;
@@ -1875,7 +1876,9 @@ figure span {
     padding: 0;
 }
 
-
+.lessons-title {
+    margin-bottom: 45px;
+}
 
 .file-upload label {
     display: block;
@@ -1890,7 +1893,58 @@ figure span {
     margin-left: 0px !important; 
 }
 
+.url {
+    color: #747474;
+}
 
 .file-upload span {
     line-height: 40px;
+}
+
+.lessons-upload {
+    margin-left: 20px;
+    color: #fff;
+    background: linear-gradient(45deg, #529EFC, #4773E1);
+}
+.lessons-upload_hint {
+    margin-left: 30px;
+    color: #747474;
+}
+.lessons-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.lessons-p::first-child {
+    margin-top: 15px;
+}
+
+.lessons-title_about {
+    margin-bottom: 20px;
+}
+
+.lessons-title_about span {
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.with-clock {
+    margin-left: 30px;
+}
+
+.less-title {
+    margin-bottom: 90px;
+
+}
+
+.with-clock:before {
+    position: absolute;
+    content: "";
+    margin-left: -30px;
+    width: 17px;
+    height: 17px;
+    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/clock.svg);
+    background-size: contain;
+    background-repeat: no-repeat;    
 }
