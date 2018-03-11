@@ -2028,9 +2028,14 @@ figure span {
     .main-content {
         width: 100%;
     }
+
+    .tasks div {
+        width: 100%;
+    }
     video {
         width: 100%;
     }
+
     body {
         background-color: #fff;
     }
