@@ -1977,6 +1977,7 @@ figure span {
 
     .main-content_title {
         margin-top: 25px;
+        margin-bottom: 0px;
     }
     .navbar-brand {
         display: none;
@@ -2011,6 +2012,13 @@ figure span {
     .row>div {
         margin: 0px;
     }
+    .lessons-title_about {
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    .lessons-title_about span {
+        margin-right: 15px;
+    }
     .profile-card,
     .profile_links {
         display: none;
@@ -2020,6 +2028,7 @@ figure span {
     }
     .content-body-table {
         width: 100%;
+        box-shadow: none;
     }
     .bread-point {
         margin-left: 10px;
@@ -2033,8 +2042,11 @@ figure span {
         width: 100%;
     }
     video {
+
         width: 100%;
+        margin-left: 10px;
     }
+
 
     body {
         background-color: #fff;
