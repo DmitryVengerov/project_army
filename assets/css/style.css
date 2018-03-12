@@ -81,7 +81,7 @@ h6 {
     margin-right: 45px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav li a {
     color: #fff;
     font-family: HelveticaRegular;
     font-size: 12px;
@@ -651,7 +651,7 @@ circle:nth-child(2n) {
     content: "";
     width: 24px;
     height: 24px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/magnifying-glass.png);
+    background: transparent url(../img/magnifying-glass.png);
     background-size: cover;
 }
 
@@ -762,7 +762,7 @@ th:first-child {
     content: "";
     width: 18px;
     height: 16px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background: transparent url(../img/arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -781,7 +781,7 @@ th:first-child {
     content: "";
     width: 17px;
     height: 16px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/Shape.svg);
+    background: transparent url(../img/Shape.svg);
     background-size: cover;
     cursor: pointer;
 }
@@ -794,7 +794,7 @@ th:first-child {
     content: "";
     width: 18px;
     height: 16px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background: transparent url(../img/arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -818,7 +818,7 @@ th:first-child {
     content: "";
     width: 18px;
     height: 16px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background: transparent url(../img/arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -832,7 +832,7 @@ th:first-child {
     content: "";
     width: 18px;
     height: 16px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background: transparent url(../img/arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -847,7 +847,7 @@ th:first-child {
     content: "";
     width: 18px;
     height: 16px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background: transparent url(../img/arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -953,7 +953,7 @@ th:first-child {
     content: "";
     width: 10px;
     height: 10px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/plus.png);
+    background: transparent url(../img/plus.png);
     background-size: cover;
 }
 
@@ -992,7 +992,7 @@ th:first-child {
     margin-left: -30px;
     width: 17px;
     height: 17px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background: transparent url(../img/arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1137,7 +1137,7 @@ th:first-child {
     width: 18px;
     height: 16px;
     transform: rotate(-90deg);
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/arrow.png);
+    background: transparent url(../img/arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1190,7 +1190,7 @@ th:first-child {
     width: 18px;
     height: 16px;
     transform: rotate(-90deg);
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/plus-whitw.png);
+    background: transparent url(../img/plus-whitw.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1413,7 +1413,7 @@ th:first-child {
 .photo-camera {
     width: 22px;
     height: 18px;
-    background: url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/camera.svg) no-repeat;
+    background: url(../img/camera.svg) no-repeat;
     margin-right: 12px;
     margin-right: 12px;
     margin-left: 35px;
@@ -1422,7 +1422,7 @@ th:first-child {
 .smile-face {
     width: 22px;
     height: 20px;
-    background: url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/smile.svg) no-repeat;
+    background: url(../img/smile.svg) no-repeat;
 }
 
 
@@ -1698,7 +1698,7 @@ th:first-child {
     content: "";
     width: 9px;
     height: 6px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/bread-point.svg);
+    background: transparent url(../img/bread-point.svg);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1711,7 +1711,7 @@ th:first-child {
     content: "";
     width: 20px;
     height: 11px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/down-black-arrow.png);
+    background: transparent url(../img/down-black-arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1773,6 +1773,9 @@ textarea {
     width: 237px;
 }
 
+.city {
+    display: none;
+}
 
 .icon-wall {
     margin-left: 10px;
@@ -1782,7 +1785,7 @@ textarea {
     height: 23px !important;
     padding: 0px !important;
     background-repeat: no-repeat;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/wall-icon.png);
+    background: transparent url(../img/wall-icon.png);
 }
 
 .icon-audio {
@@ -1792,7 +1795,7 @@ textarea {
     padding: 0px !important;
     width: 23px !important;
     height: 20px !important;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/headphone-symbol.png);
+    background: transparent url(../img/headphone-symbol.png);
 }
 
 .icon-menu {
@@ -1802,7 +1805,7 @@ textarea {
     padding: 0px !important;
     width: 23px !important;
     height: 18px !important;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/menu-left.png);
+    background: transparent url(../img/menu-left.png);
 }
 
 .icon-speaker {
@@ -1812,7 +1815,11 @@ textarea {
     padding: 0px !important;
     width: 23px !important;
     height: 18px !important;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/audio-speaker.png);
+    background: transparent url(../img/audio-speaker.png);
+}
+
+.post-foot_comments {
+    display: none;
 }
 
 .icon-play {
@@ -1822,7 +1829,7 @@ textarea {
     padding: 0px !important;
     width: 23px !important;
     height: 17px !important;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/start-button.png);
+    background: transparent url(../img/start-button.png);
 }
 
 figure span {
@@ -1881,7 +1888,7 @@ figure span {
 }
 
 .lessons-title {
-    margin-left: 55px;
+   /*margin-left: 55px;*/
     margin-bottom: 45px;
 }
 
@@ -1950,7 +1957,7 @@ figure span {
     margin-left: -30px;
     width: 17px;
     height: 17px;
-    background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/clock.svg);
+    background: transparent url(../img/clock.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1959,7 +1966,10 @@ figure span {
     display: none;
 }
 
-@media (min-width: 768px) {}
+.hidden-button {
+    display: none;
+}
+
 
 @media (max-width: 768px) {
     .navbar-nav {
@@ -2012,21 +2022,22 @@ figure span {
     }
     .main-content_title h2 {
         margin-left: 10px;
+        margin-top: 40px;
     }
     .content-name {
         display: none;
     }
-    .row>div {
+    .row div {
         margin: 0px;
     }
     .lessons-title_about {
-        margin-left: 10px;
+        margin-left: 10px !important;
         margin-bottom: 10px;
     }
     .lessons-title_about span {
         margin-right: 15px;
     }
-    .profile-card,
+
     .profile_links {
         display: none;
     }
@@ -2036,9 +2047,6 @@ figure span {
     .content-body-table {
         width: 100%;
         box-shadow: none;
-    }
-    .bread-point {
-        margin-left: 10px;
     }
 
     .main-content {
@@ -2058,9 +2066,9 @@ figure span {
     }
 
     body {
-        background-color: #fff;
+        
     }
-    .main-content_grid .tasks>input,
+    .main-content_grid .tasks input,
     textarea {
         width: auto;
     }
@@ -2132,4 +2140,213 @@ figure span {
         width: 100%;
         margin-left: 0px;
     }
+    .main-content_grid .tasks input, textarea {
+        display:  block;
+        width: 236px !important;
+    }
+
+    .left-align {
+        margin-left: 0px;
+    } 
+
+    .btn-app {
+        margin-right: 10px;
+    }
+
+    .without-right-menu {
+        margin-right: 0px !important;
+    }
+    .wrapper-tab {
+        margin-top: 0px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .wrapper-tab div {
+        width: 95px;
+        padding-left: 0px;
+        margin-left: 6px;
+    margin-right: 6px;
+    }
+    .input-wrapper {
+        display: none;
+    }
+    .post-body {
+        display: block;
+    }
+
+    .bread-point {
+        margin-left: 10px !important;
+        margin-top: 10px !important;
+    }
+    .input-wrapper {
+        box-shadow: none;
+        border: none;
+        border-radius: 0px;
+        width: 375px;
+    }
+
+    #uploaded-file {
+        display: none;
+    }
+
+    .profile-card {
+        width: 375px;
+        height: 100%;
+        box-shadow: none;
+    margin-bottom: 15px !important;
+    border-radius: 0px
+    }
+
+    .post-body_content {
+        padding: 15px;
+    }
+
+    .post-body_content img {
+        width: 100%;
+    }
+    .post-body_comments:last-child {
+        display: none;
+    }
+    .four-tab {
+        display: none;
+    }
+    .profile-card_info {
+        justify-content: space-around;
+        border-top: 1px solid #C3C3C3;
+        padding: 10px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+
+    }
+
+    .profile-card_info div {
+            border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    }
+
+    .profile-card_info div:first-child {
+        border: none;
+
+    }
+    .profile-card_info div:last-child {
+        border: none;
+    }
+    .profile-card_data {
+        text-align: left;
+        padding-left: 100px;
+        margin-bottom: 25px !important
+    }
+    .profile-card_avatar {
+        position: absolute;
+        left: 10px;
+    }
+    .city {
+        display: inline-flex;
+        padding-left: 15px;
+        color: #747474;
+    }
+    .profile-card_data p{
+        color: #747474;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .profile-card_data p:first-child {
+        color: #000;
+        font-size: 15px;
+    }
+
+    .hidden-button {
+        display: block;
+    }
+    .hidden-button button {
+        height: 43px;
+        width: 100%;
+        color: #747474;
+        font-size: 12px;
+        border-top: 1px;
+        border-top: 1px solid #747474;
+        border-bottom: 1px solid #747474;
+    }
+    .post-body_comments>span {
+        display: none;
+    }
+    .hidden-button button:after {
+position: absolute;
+    /* float: right; */
+    /* margin-top: -15px; */
+    margin-left: 100px;
+    /* margin-right: 126px; */
+    content: "";
+    width: 18px;
+    height: 16px;
+    transform: rotate(-90deg);
+    background: transparent url(../img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+
+    .post-foot_comments {
+        display: block;
+        
+        
+    }
+    .comment-body {
+        width: 100%;
+        padding: 10px;
+        float: left;
+        background: #F7F7F7;
+    }
+    .comment-body .avatar {
+        width: 29px !important;
+        height: 29px !important;
+        display: block;
+    }
+
+    .comment-body div {
+        position: absolute;
+        margin-top: -35px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    .request-input {
+        width: 100%;
+        float: left;
+        padding-top: 12px;
+        padding-bottom: 15px;
+        padding-bottom: 20px;
+        background: #fff;
+            text-align: left;
+    padding-left: 10px;
+    }
+    .request-input input {
+        width: 80%;
+        border: 1px solid #D8D8D8;
+        border-radius: 50px;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+    .request-input:after {
+        position: absolute;
+    /* float: right; */
+    /* margin-top: -15px; */
+
+    /* margin-right: 126px; */
+    margin-top: 12px;
+    margin-left: 20px;
+    content: "";
+    width: 25px;
+    height: 21px;
+    background: transparent url(../img/arrow-sent.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+
 }
