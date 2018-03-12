@@ -1881,6 +1881,7 @@ figure span {
 }
 
 .lessons-title {
+    margin-left: 55px;
     margin-bottom: 45px;
 }
 
@@ -1952,6 +1953,10 @@ figure span {
     background: transparent url(file:///Users/dmitrijvengerov/repos/project_army/assets/img/clock.svg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.navbar-collapse-content {
+    display: none;
 }
 
 @media (min-width: 768px) {}
@@ -2085,7 +2090,7 @@ figure span {
     }
     .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background: transparent; }
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-        height: 100vh;
+
     border-color: #101010;
     color: #fff;
     }
@@ -2095,6 +2100,36 @@ figure span {
         height: 61px;
     }
      .navbar-collapse .collapse .in.navbar-fixed-top {
-        height: 100%;
+
+    }
+    .trenning-list {
+        display: none;
+    }
+    .students {
+        display: none !important;
+    }
+
+    .crumbs {
+        display: none;
+    }
+
+    .tast-awaits-check {
+        display: none !important;
+    }
+    .task-list-content,
+    .content-body_content {
+        width: 100%;
+    }
+    .content-body_content {
+        margin-left: 10px !important
+    }
+    .lessons-title {margin-left: 0px;}
+    .couch {
+        display: none;
+    }
+
+    .tasks img {
+        width: 100%;
+        margin-left: 0px;
     }
 }
