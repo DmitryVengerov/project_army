@@ -133,7 +133,9 @@ h6 {
 }
 
 .bell-wrapper {
-    display: inline-block;
+    display: none;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .alert-dot {
@@ -243,6 +245,17 @@ h6 {
     margin-bottom: 15px;
 }
 
+.content-name h2 {
+    display: inline-block;
+}
+
+.profile_page {
+    justify-content: unset !important;
+}
+
+.profile_page div h2 {
+    margin-top: 0px;
+}
 .content-name>button {
     color: #3EA3FF;
     background: transparent;
@@ -606,7 +619,6 @@ circle:nth-child(2n) {
     margin: 0px;
     width: 215px;
     border: 1px solid #E7E9EE;
-    top: 86%;
 }
 
 .dropdown-menu li a {
@@ -645,7 +657,8 @@ circle:nth-child(2n) {
 
 .search-icon-input:after {
     position: absolute;
-    margin-top: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
     top: 0;
     right: 0;
     content: "";
@@ -680,6 +693,8 @@ circle:nth-child(2n) {
 
 .dropdown-menu>li:first-child {
     border-bottom: 1px solid #EFF0F3;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 table {
@@ -860,6 +875,7 @@ th:first-child {
     margin-right: 30px !important;
     margin-left: 0px !important;
     border: none;
+    width: 100%;
 }
 
 .students div div .additional-fields {
@@ -1067,6 +1083,18 @@ th:first-child {
     align-items: center;
 }
 
+
+.card-user {
+    margin-left: 30%;
+    align-items: center;
+    display: flex;
+}
+
+.card-user .user {
+    border-bottom: 1px solid #337ab7;
+    cursor: pointer;
+}
+
 .temp-img {
     display: inline-flex;
 
@@ -1094,9 +1122,31 @@ th:first-child {
     color: #fff;
 }
 
+.open> .dropdown button {
+    transform: rotate(90deg);
+    background: red;
+}
+
 .temp-img h6 {
     margin-top: 5px;
     color: #fff;
+}
+
+.main-content_title button {
+    border: 1px solid;
+    border-radius: 50px;
+    color:#3EA3FF;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    display: flex;
+    font-size: 12px;
+    align-items: center
+}
+
+.main-content_title button svg {
+    margin-right: 15px;
 }
 
 .btn-download {
@@ -1434,6 +1484,7 @@ th:first-child {
 
 
 
+
 /* TEST */
 
 .filler-checkbox:disabled+.filler-label {
@@ -1667,6 +1718,15 @@ th:first-child {
     margin-top: 20px;
 }
 
+.settings-edit {
+    margin-left: 80px;
+    margin-top: -140px;
+}
+
+.settings-info {
+    display: none;
+}
+
 .right-panel_header button {
     margin-top: 0px;
     margin-bottom: 37px;
@@ -1888,8 +1948,9 @@ figure span {
 }
 
 .lessons-title {
-   /*margin-left: 55px;*/
-    margin-bottom: 45px;
+    margin-left: 55px;
+    margin-bottom: 15px;
+    margin-top: 50px;
 }
 
 .file-upload label {
@@ -1951,6 +2012,16 @@ figure span {
     margin-bottom: 90px;
 }
 
+.online_status {
+    margin-top: 6px;
+    margin-left: 25px;
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    background: #DCDCDC;
+}
+
 .with-clock:before {
     position: absolute;
     content: "";
@@ -1962,12 +2033,23 @@ figure span {
     background-repeat: no-repeat;
 }
 
+.profile-card .settings-edit,
+.settings-info {
+    position: absolute;
+}
+
 .navbar-collapse-content {
     display: none;
 }
 
 .hidden-button {
     display: none;
+}
+
+@media (max-width: 852px) {
+    .navbar-nav {
+        display: none;
+    }
 }
 
 
@@ -1995,6 +2077,7 @@ figure span {
     .main-content_title {
         margin-top: 25px;
         margin-bottom: 0px;
+
     }
     .navbar-brand {
         display: none;
@@ -2065,9 +2148,7 @@ figure span {
         border: none;
     }
 
-    body {
-        
-    }
+    body {}
     .main-content_grid .tasks input,
     textarea {
         width: auto;
@@ -2096,20 +2177,22 @@ figure span {
     .navbar-toggle button {
         background: transparent;
     }
-    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background: transparent; }
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    .navbar-inverse .navbar-toggle:focus,
+    .navbar-inverse .navbar-toggle:hover {
+        background: transparent;
+    }
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
 
-    border-color: #101010;
-    color: #fff;
+        border-color: #101010;
+        color: #fff;
     }
 
     .navbar-collapse-content .avatar {
         width: 61px;
         height: 61px;
     }
-     .navbar-collapse .collapse .in.navbar-fixed-top {
-
-    }
+    .navbar-collapse .collapse .in.navbar-fixed-top {}
     .trenning-list {
         display: none;
     }
@@ -2131,7 +2214,9 @@ figure span {
     .content-body_content {
         margin-left: 10px !important
     }
-    .lessons-title {margin-left: 0px;}
+    .lessons-title {
+        margin-left: 0px;
+    }
     .couch {
         display: none;
     }
@@ -2140,14 +2225,15 @@ figure span {
         width: 100%;
         margin-left: 0px;
     }
-    .main-content_grid .tasks input, textarea {
-        display:  block;
+    .main-content_grid .tasks input,
+    textarea {
+        display: block;
         width: 236px !important;
     }
 
     .left-align {
         margin-left: 0px;
-    } 
+    }
 
     .btn-app {
         margin-right: 10px;
@@ -2159,13 +2245,14 @@ figure span {
     .wrapper-tab {
         margin-top: 0px !important;
         margin-bottom: 15px !important;
+        overflow-x: hidden;
     }
 
     .wrapper-tab div {
         width: 95px;
         padding-left: 0px;
         margin-left: 6px;
-    margin-right: 6px;
+        margin-right: 6px;
     }
     .input-wrapper {
         display: none;
@@ -2193,8 +2280,8 @@ figure span {
         width: 375px;
         height: 100%;
         box-shadow: none;
-    margin-bottom: 15px !important;
-    border-radius: 0px
+        margin-bottom: 15px !important;
+        border-radius: 0px
     }
 
     .post-body_content {
@@ -2207,29 +2294,24 @@ figure span {
     .post-body_comments:last-child {
         display: none;
     }
-    .four-tab {
-        display: none;
-    }
+
     .profile-card_info {
         justify-content: space-around;
         border-top: 1px solid #C3C3C3;
         padding: 10px;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-
+        margin-left: 10px !important;
+        margin-right: 10px !important;
     }
 
     .profile-card_info div {
-            border-left: 1px solid #c3c3c3;
-    border-right: 1px solid #c3c3c3;
-    padding-left: 30px;
-    padding-right: 30px;
-
+        border-left: 1px solid #c3c3c3;
+        border-right: 1px solid #c3c3c3;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .profile-card_info div:first-child {
         border: none;
-
     }
     .profile-card_info div:last-child {
         border: none;
@@ -2241,14 +2323,14 @@ figure span {
     }
     .profile-card_avatar {
         position: absolute;
-        left: 10px;
+        margin-left: -177px;
     }
     .city {
         display: inline-flex;
         padding-left: 15px;
         color: #747474;
     }
-    .profile-card_data p{
+    .profile-card_data p {
         color: #747474;
         font-size: 12px;
         margin-left: 0px;
@@ -2271,29 +2353,29 @@ figure span {
         border-top: 1px solid #747474;
         border-bottom: 1px solid #747474;
     }
-    .post-body_comments>span {
+    .post-body_comments .word {
         display: none;
     }
+
+
     .hidden-button button:after {
-position: absolute;
-    /* float: right; */
-    /* margin-top: -15px; */
-    margin-left: 100px;
-    /* margin-right: 126px; */
-    content: "";
-    width: 18px;
-    height: 16px;
-    transform: rotate(-90deg);
-    background: transparent url(../img/arrow.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
+        position: absolute;
+        /* float: right; */
+        /* margin-top: -15px; */
+        margin-left: 100px;
+        /* margin-right: 126px; */
+        content: "";
+        width: 18px;
+        height: 16px;
+        transform: rotate(-90deg);
+        background: transparent url(../img/arrow.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
     }
 
     .post-foot_comments {
         display: block;
-        
-        
     }
     .comment-body {
         width: 100%;
@@ -2320,8 +2402,8 @@ position: absolute;
         padding-bottom: 15px;
         padding-bottom: 20px;
         background: #fff;
-            text-align: left;
-    padding-left: 10px;
+        text-align: left;
+        padding-left: 10px;
     }
     .request-input input {
         width: 80%;
@@ -2334,19 +2416,98 @@ position: absolute;
     }
     .request-input:after {
         position: absolute;
-    /* float: right; */
-    /* margin-top: -15px; */
-
-    /* margin-right: 126px; */
-    margin-top: 12px;
-    margin-left: 20px;
-    content: "";
-    width: 25px;
-    height: 21px;
-    background: transparent url(../img/arrow-sent.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
+        /* float: right; */
+        /* margin-top: -15px; */
+        /* margin-right: 126px; */
+        margin-top: 12px;
+        margin-left: 20px;
+        content: "";
+        width: 25px;
+        height: 21px;
+        background: transparent url(../img/arrow-sent.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    .settings-info {
+        display: block;
+        margin-left: 240px;
+        margin-top: -25px;
     }
 
+    .post-body_comments>svg {
+        margin-right: 5px;
+    }
+    .settings-edit {
+        margin-left: 240px;
+        margin-top: -65px;
+    }
+    .bell-wrapper {
+        display: inline-block;
+    }
+
+    .response {
+        margin-left: 0px !important;
+    }
+    .lesson-data {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .notice {
+        display: block !important;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .notice_title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+        text-align: left;
+        border-bottom: 1px solid #C3C3C3;
+    }
+
+    .notice_body {
+        padding-top: 18px;
+    }
+
+    .notice_body div {
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    .notice_body div img {
+        width: 29px !important;
+        height: 29px !important;
+        margin-right: 10px !important
+    }
+    .comment_text {
+        display: inline-flex;
+    }
+
+    .notice_body span {
+        font-size: 13px;
+    }
+    .notice_body span:first-child {
+        margin-left: 0px;
+    }
+    .comment_data {
+        color: #747474;
+        margin-left: 15px;
+    }
+
+    .comment_text div {
+        margin-bottom: 0px;
+    }
+    .notice_title span {
+        font-size: 14px;
+    }
+
+    .notice_app {
+        color: #8191B2;
+        margin-left: 3px !important;
+    }
 }
