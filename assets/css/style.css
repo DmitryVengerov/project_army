@@ -335,6 +335,7 @@ h6 {
     width: 80%;
     height: 30px;
     outline: none;
+    font-size: 12px;
 }
 
 .post-body {
@@ -2046,6 +2047,143 @@ figure span {
     display: none;
 }
 
+.profile_settings div {
+    display: block ;
+}
+
+.profile_settings_title {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align:left;
+    display: flex !important;
+    justify-content: space-between;
+    background: #fff;
+    font-size: 15px;
+    align-items: center;
+    box-shadow: 0px 2px 4px 0px #00000030;
+}
+
+.profile_settings_title span {
+    font-size: 15px;
+}
+
+.profile_settings_title a:first-child {
+    color: #000;
+}
+
+.profile_settings_body {
+    padding-top: 17px;
+}
+
+.ava_settings {
+    width: 76px;
+    height: 76px;
+    margin-right: 15px;
+}
+
+.setting_name {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+
+.setting_name input {
+    padding-top: 13px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    width: 100%;
+    background: #fff;
+}
+
+.settings_wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    display: flex !important;
+    flex-direction: column;
+    background: #fff;
+    margin-bottom: 20px !important;
+}
+
+.settings_wrapper div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings_wrapper div {
+    border-bottom: 1px solid #C2C2C2;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.settings_wrapper div:last-child {
+    border-bottom: none;
+}
+
+.settings_wrapper div span {
+    font-size: 14px;
+}
+
+.settings_wrapper div span:last-child {
+    color: #747474;
+    margin-right: 20px;
+}
+
+.settings_wrapper div span:last-child:after {
+    position: absolute;
+    margin-left: 10px;
+    content: "";
+    width: 16px;
+    height: 14px;
+    transform: rotate(-90deg);
+    background: transparent url(../img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.setting_name input:first-child {
+    border-bottom: 1px solid #C2C2C2;
+}
+.settings_wrapper-textarea {
+    padding-left: 0px !important;
+    width: 100% !important;
+    min-height: 70px;
+}
+
+.profile_settings_body button {
+    display: block;
+    text-align: center;
+}
+
+.change_password {
+    padding-bottom: 9px;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+ 
+    margin: auto;
+    background: #529CFB;
+    color: #fff;
+    border-radius: 10px;
+    width: 204px;
+    margin-bottom: 13px;
+}
+
+.change_account {
+    padding-bottom: 9px;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: auto;
+    border: 1px solid #529CFB;
+    color: #529CFB;
+    border-radius: 10px;
+    width: 204px;
+}
+
+
 @media (max-width: 852px) {
     .navbar-nav {
         display: none;
@@ -2511,3 +2649,4 @@ figure span {
         margin-left: 3px !important;
     }
 }
+ 
