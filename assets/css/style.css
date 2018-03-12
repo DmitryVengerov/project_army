@@ -256,6 +256,7 @@ h6 {
 .profile_page div h2 {
     margin-top: 0px;
 }
+
 .content-name>button {
     color: #3EA3FF;
     background: transparent;
@@ -1123,7 +1124,7 @@ th:first-child {
     color: #fff;
 }
 
-.open> .dropdown button {
+.open>.dropdown button {
     transform: rotate(90deg);
     background: red;
 }
@@ -1136,7 +1137,7 @@ th:first-child {
 .main-content_title button {
     border: 1px solid;
     border-radius: 50px;
-    color:#3EA3FF;
+    color: #3EA3FF;
     padding-top: 10px;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -1475,6 +1476,7 @@ th:first-child {
     height: 20px;
     background: url(../img/smile.svg) no-repeat;
 }
+
 
 
 
@@ -2048,7 +2050,7 @@ figure span {
 }
 
 .profile_settings div {
-    display: block ;
+    display: block;
 }
 
 .profile_settings_title {
@@ -2056,7 +2058,7 @@ figure span {
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 5px;
-    text-align:left;
+    text-align: left;
     display: flex !important;
     justify-content: space-between;
     background: #fff;
@@ -2143,9 +2145,11 @@ figure span {
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
 .setting_name input:first-child {
     border-bottom: 1px solid #C2C2C2;
 }
+
 .settings_wrapper-textarea {
     padding-left: 0px !important;
     width: 100% !important;
@@ -2162,7 +2166,7 @@ figure span {
     padding-top: 15px;
     padding-left: 45px;
     padding-right: 45px;
- 
+
     margin: auto;
     background: #529CFB;
     color: #fff;
@@ -2183,6 +2187,89 @@ figure span {
     width: 204px;
 }
 
+.chat_body {
+    padding-top: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.sender,
+.recipient {
+    width: 100%;
+    height: auto;
+}
+
+.sender {
+    display: flex;
+}
+
+.mes_wrapper_1 {
+    background: #EAECF4;
+    width: 137px;
+    border-radius: 10px;
+    float: left;
+    text-align: left;
+    padding: 8px;
+}
+
+.mes_wrapper_2 {
+    padding: 8px;
+    background: #D8D8D8;
+    width: 137px;
+    border-radius: 10px;
+    float: right;
+    text-align: left
+}
+
+.mes_wrapper_2 span {
+    font-size: 14px;
+}
+
+.mes_wrapper_1 span {
+    font-size: 14px;
+}
+
+.wrapper_input_chat {
+    width: 100%;
+    height: 42px;
+    background: #E8E8E9;
+    bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-align: initial;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+        display: flex !important;
+    align-items: center;
+}
+
+.wrapper_input_chat-input {
+
+
+    width: 90%;
+    height: 100%;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #979797;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.send-btn {
+    width: 25px;
+    height: 22px;
+    margin-left: 10px;
+    background: transparent url(../img/sent-arrow.svg);
+}
+
+.recipient {
+    float: right;
+    text-align: right;
+}
 
 @media (max-width: 852px) {
     .navbar-nav {
@@ -2215,7 +2302,6 @@ figure span {
     .main-content_title {
         margin-top: 25px;
         margin-bottom: 0px;
-
     }
     .navbar-brand {
         display: none;
@@ -2649,4 +2735,3 @@ figure span {
         margin-left: 3px !important;
     }
 }
- 
