@@ -2028,7 +2028,12 @@ figure span {
     display: none;
 }
 
-
+.navbar-header .bell_button {
+    display: none;
+}
+.mobile-nav {
+    display: none;
+}
 
 
 .file-upload {
@@ -2901,8 +2906,11 @@ figure span {
         margin-left: 20px;
         margin-top: 10px;
     }
-
+    .navbar-header .bell_button {
+        display: inline-block;
+    }
     .mobile-nav {
+        display: block;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 20px;
