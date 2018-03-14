@@ -260,14 +260,15 @@ h6 {
 .content-name>button {
     color: #3EA3FF;
     background: transparent;
-    padding: 8px;
+    padding: 4px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 30px;
     border-radius: 50px;
     border: 1px solid #3EA3FF;
     outline: none;
     right: 0;
     float: right;
+    font-size: 12px;
     transition: ease all .1s;
 }
 
@@ -275,11 +276,10 @@ h6 {
     margin-right: 14px;
 }
 
-.content-name>button:hover {
-    color: #fff;
-    background: linear-gradient(120deg, #529EFC, #4773E1);
-    border: 1px solid transparent;
-}
+color: #FFF;
+background: linear-gradient(45deg,
+#529EFC,
+#4773E1);
 
 .content-name>button:hover #button-add-plus {
     fill: #fff;
@@ -717,7 +717,7 @@ td {
 }
 
 th:first-child {
-    width: 70px;
+    width: auto;
 }
 
 .tag-title {
@@ -966,7 +966,7 @@ th:first-child {
 
 .add-btn:after {
     position: absolute;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-left: 10px;
     content: "";
     width: 10px;
@@ -976,7 +976,7 @@ th:first-child {
 }
 
 .add-btn:hover {
-    background: transparent !important;
+    background: #F3F4F5 !important;
 }
 
 .lists-free {
@@ -1017,10 +1017,9 @@ th:first-child {
 
 .btn-save {
     color: #3EA3FF;
-
     cursor: pointer;
     background: transparent;
-    padding: 8px;
+    padding: 4px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 50px;
@@ -1410,6 +1409,21 @@ th:first-child {
     margin-left: 25px;
 }
 
+.icon_title {
+    display: inline-block !important;
+    padding: 0px !important;
+    border: none !important;
+}
+
+.icon_menu {
+    padding: 5px !important;
+    padding-right: 20px !important;
+}
+
+.icon_menu-block {
+    padding-right: 5px !important;
+}
+
 .input--comments {
     padding: 5px 25px;
     padding-right: 5PX;
@@ -1427,6 +1441,21 @@ th:first-child {
     background-color: red;
 }
 
+
+
+
+.new-compilation {
+    width: 200% !important;
+}
+
+.exstends-fields {
+    width: unset !important;
+}
+
+
+
+/* buttons */
+
 .btn-cnl {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1434,7 +1463,7 @@ th:first-child {
     color: #3EA3FF;
     cursor: pointer;
     background: transparent;
-    padding: 5px;
+    padding: 4px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 50px;
@@ -1462,6 +1491,58 @@ th:first-child {
     transition: ease all .1s;
 }
 
+.add-wdgt {
+    height: 27px;
+}
+
+.add-wdgt:hover {
+    background: linear-gradient(45deg, #529EFC, #4773E1) !important;
+    color: #fff;
+}
+
+.add-wdgt:hover svg g g {
+    fill: #fff;
+}
+
+.file-upload:hover {
+    transition: ease all .1s;
+    background: linear-gradient(45deg, #407CC8, #385CB4) !important;
+}
+
+.add-wdgt svg {
+    padding-top: 4px;
+}
+
+.btn-save:hover {
+    color: #FFF;
+    background: linear-gradient(45deg, #529EFC, #4773E1);
+}
+
+.btn-download:hover {
+    background: transparent;
+}
+
+.btn-app:hover {
+    transition: ease all .1s;
+    background: linear-gradient(45deg, #407CC8, #385CB4);
+}
+
+.btn-cnl:hover {
+    transition: ease all .1s;
+    background: linear-gradient(45deg, #529EFC, #4773E1) !important;
+    color: #fff;
+}
+
+.right-panel_header button {
+    width: 130px;
+}
+
+.right-panel_header button:hover {
+    transition: ease all .1s;
+    background: #F3F4F5;
+    border-radius: 50px;
+}
+
 .photo-camera {
     width: 22px;
     height: 18px;
@@ -1476,15 +1557,6 @@ th:first-child {
     height: 20px;
     background: url(../img/smile.svg) no-repeat;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1770,7 +1842,7 @@ th:first-child {
 .btn-arr:after {
     position: absolute;
     margin-top: 3px;
-    margin-left: 15px;
+    margin-left: 10px;
     content: "";
     width: 20px;
     height: 11px;
@@ -1951,9 +2023,12 @@ figure span {
 }
 
 .lessons-title {
-    margin-left: 55px;
     margin-bottom: 15px;
     margin-top: 50px;
+}
+
+.response_header {
+    margin-left: 55px;
 }
 
 .file-upload label {
@@ -2120,6 +2195,12 @@ figure span {
     padding-bottom: 15px;
 }
 
+.flex-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .settings_wrapper div:last-child {
     border-bottom: none;
 }
@@ -2181,10 +2262,15 @@ figure span {
     padding-left: 45px;
     padding-right: 45px;
     margin: auto;
+    margin-bottom: 20px;
     border: 1px solid #529CFB;
     color: #529CFB;
     border-radius: 10px;
     width: 204px;
+}
+
+.users_title {
+    margin-top: 0px;
 }
 
 .chat_body {
@@ -2217,6 +2303,7 @@ figure span {
     padding: 8px;
     background: #D8D8D8;
     width: 137px;
+    margin-top: 10px !important;
     border-radius: 10px;
     float: right;
     text-align: left
@@ -2243,7 +2330,7 @@ figure span {
     position: absolute;
     bottom: 0;
     left: 0;
-        display: flex !important;
+    display: flex !important;
     align-items: center;
 }
 
@@ -2364,14 +2451,19 @@ figure span {
         width: 100%;
     }
     video {
-
         width: 95%;
-        margin-left: 10px;
+        margin-left: 10px !important;
     }
     .navbar-inverse .navbar-toggle {
         border: none;
     }
 
+    .content-user-info_name {
+        width: 100%;
+    }
+    .project-stage {
+        margin-right: 0px;
+    }
     body {}
     .main-content_grid .tasks input,
     textarea {
@@ -2619,6 +2711,16 @@ figure span {
         margin-left: 30px;
         text-align: left;
     }
+
+    .lesson-num {
+        width: 25%;
+        margin-right: 10px;
+    }
+
+    .lesson-data {
+        width: 48%;
+    }
+
     .request-input {
         width: 100%;
         float: left;
@@ -2730,6 +2832,9 @@ figure span {
         font-size: 14px;
     }
 
+    .photo-camera {
+        width: 25px;
+    }
     .notice_app {
         color: #8191B2;
         margin-left: 3px !important;
