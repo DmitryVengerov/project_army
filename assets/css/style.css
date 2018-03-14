@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: "HelveticaRegular";
     src: url(../fonts/HelveticaRegular/HelveticaRegular.woff);
     font-weight: normal;
@@ -1486,6 +1486,8 @@ th:first-child {
 
 
 
+
+
 /* buttons */
 
 .btn-cnl {
@@ -1589,6 +1591,8 @@ th:first-child {
     height: 20px;
     background: url(../img/smile.svg) no-repeat;
 }
+
+
 
 
 
@@ -2434,7 +2438,7 @@ figure span {
     }
     .collapse {
         display: block !important;
-    visibility: visible !important;
+        visibility: visible !important;
     }
     .navbar-header {
         position: absolute;
@@ -2442,10 +2446,7 @@ figure span {
 }
 
 @media (min-width: 768px) {
-    
-    .post-body {
-        margin: auto !important;
-    }
+
     .navbar-collapse.collapse {
         display: none !important;
         visibility: hidden !important;
@@ -2461,576 +2462,607 @@ figure span {
         float: left;
         width: 100%;
     }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
-@media (max-width: 768px) {
-    .navbar-nav {
-        display: none;
-    }
 
-    .left-nav {
-        display: none;
-    }
-    .navbar-form {
-        display: none;
-    }
-    .right-panel {
-        display: none !important;
-    }
-    .main-content_title:last-child {
-        display: none !important;
-    }
 
-    .main-content_title {
-        margin-top: 25px;
-        margin-bottom: 0px;
-    }
-    .navbar-brand {
-        display: none;
-    }
-    .main-content_grid .lesson-card {
-        width: 334px;
-        height: 415px;
-        margin: 10px;
-        box-shadow: none;
-        background-color: transparent;
-    }
-    .plus-button {
-        display: none;
-    }
-    .lesson-card div {
-        border-radius: 8px;
-        height: 334px;
-        margin-bottom: 10px;
-    }
-    .lesson-card p {
-        font-size: 14px;
-    }
-    .main-content_title-right {
-        display: none;
-    }
-    .main-content_title h2 {
-        margin-left: 10px;
-        margin-top: 40px;
-    }
-    .content-name {
-        display: none;
-    }
-    .row div {
-        margin: 0px;
-    }
-    .lessons-title_about {
-        margin-left: 10px !important;
-        margin-bottom: 10px;
-    }
-    .lessons-title_about span {
-        margin-right: 15px;
-    }
-
-    .profile_links {
-        display: none;
-    }
+@media (max-width:1300px) {
     .wrapper {
         display: none;
     }
-    .content-body-table {
-        width: 100%;
-        box-shadow: none;
+    .container {
+        padding-right: 15px;
+        padding-left: 115px;
+        /* margin-right: auto; */
+        margin-left: auto;
     }
 
-    .main-content {
-        width: 100%;
+    @media (min-width: 568px) {
+        .post-body {
+            margin: auto !important;
+        }
     }
 
-    .tasks div {
-        width: 100%;
-    }
-    video {
-        width: 95%;
-        margin-left: 10px !important;
-    }
-    .navbar-inverse .navbar-toggle {
-        border: none;
-    }
-
-    .content-user-info_name {
-        width: 100%;
-    }
-    .project-stage {
-        margin-right: 0px;
-    }
-    body {}
-    .main-content_grid .tasks input,
-    textarea {
-        width: auto;
-    }
-    .bell {
-        width: 23px;
-        height: 27px;
-    }
-    .filler-checked {
-        padding-left: 12px;
-    }
-    .lessons-p {
-        margin-left: 10PX;
-    }
-    .tasks h5,
-    p {
-        margin-left: 10px;
-    }
-    .tasks p {
-        margin-left: 0px !important;
-    }
-    .navbar-collapse {
-        border-top: none;
-        box-shadow: none;
-    }
-    .navbar-toggle button {
-        background: transparent;
-    }
-    .navbar-inverse .navbar-toggle:focus,
-    .navbar-inverse .navbar-toggle:hover {
-        background: transparent;
-    }
-    .navbar-inverse .navbar-collapse,
-    .navbar-inverse .navbar-form {
-
-        border-color: #101010;
-        color: #fff;
-    }
-
-    .navbar-collapse-content .avatar {
-        width: 61px;
-        height: 61px;
-    }
-    .navbar-collapse .collapse .in.navbar-fixed-top {}
-    .trenning-list {
-        display: none;
-    }
-    .students {
-        display: none !important;
-    }
-
-    .crumbs {
-        display: none;
-    }
-
-    .tast-awaits-check {
-        display: none !important;
-    }
-    .task-list-content,
-    .content-body_content {
-        width: 100%;
-    }
-    .content-body_content {
-        margin-left: 10px !important
-    }
-    .lessons-title {
-        margin-left: 0px;
-    }
-    .couch {
-        display: none;
-    }
-
-    .tasks img {
-        width: 100%;
-        margin-left: 0px;
-    }
-    .main-content_grid .tasks input,
-    textarea {
-        display: block;
-        width: 236px !important;
-    }
-
-    .left-align {
-        margin-left: 0px;
-    }
-
-    .btn-app {
-        margin-right: 10px;
-    }
-
-    .without-right-menu {
-        margin-right: 0px !important;
-    }
-    .wrapper-tab {
-        margin-top: 0px !important;
-        margin-bottom: 15px !important;
-        overflow-x: hidden;
-    }
-
-    .wrapper-max {
-        max-width: 100%;
-    }
-
-    .additional-wrapper {
-        width: 100%;
-        overflow-x: scroll;
-    }
-
-    .wrapper-tab div {
-        width: 95px;
-        padding-left: 0px;
-        margin-left: 6px;
-        margin-right: 6px;
-    }
-    .input-wrapper {
-        display: none;
-    }
-    .post-body {
-        display: block;
-    }
-
-    .bread-point {
-        margin-left: 10px !important;
-        margin-top: 10px !important;
-    }
-    .input-wrapper {
-        box-shadow: none;
-        border: none;
-        border-radius: 0px;
-        width: 375px;
-    }
-
-    .wrapper-tab div {
-        /* height: 95px; */
-    }
-    #uploaded-file {
-        display: none;
-    }
-
-    .profile-card {
-        width: 375px;
-        height: 100%;
-        box-shadow: none;
-        margin-bottom: 15px !important;
-        border-radius: 0px
-    }
-
-    .post-body_content {
-        padding: 15px;
-    }
-
-    .post-body_content img {
-        width: 100%;
-    }
-    .post-body_comments:last-child {
-        display: none;
-    }
-
-    .profile-card_info {
-        justify-content: space-around;
-        border-top: 1px solid #C3C3C3;
-        padding: 10px;
-        margin-left: 10px !important;
-        margin-right: 10px !important;
-    }
-
-    .profile-card_info div {
-        border-left: 1px solid #c3c3c3;
-        border-right: 1px solid #c3c3c3;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .profile-card_info div:first-child {
-        border: none;
-    }
-    .profile-card_info div:last-child {
-        border: none;
-    }
-    .profile-card_data {
-        text-align: left;
-        padding-left: 100px;
-        margin-bottom: 25px !important
-    }
-    .profile-card_avatar {
-        position: absolute;
-        margin-left: -177px;
-    }
-    .city {
-        display: inline-flex;
+    @media (max-width: 768px) {
+        .container {
+        padding-right: 15px;
         padding-left: 15px;
-        color: #747474;
+        margin-right: auto;
+        margin-left: auto;
     }
-    .profile-card_data p {
-        color: #747474;
-        font-size: 12px;
-        margin-left: 0px;
-    }
+        .navbar-nav {
+            display: none;
+        }
 
-    .profile-card_data p:first-child {
-        color: #000;
-        font-size: 15px;
-    }
+        .left-nav {
+            display: none;
+        }
+        .navbar-form {
+            display: none;
+        }
+        .right-panel {
+            display: none !important;
+        }
+        .main-content_title:last-child {
+            display: none !important;
+        }
 
-    .hidden-button {
-        display: block;
-    }
-    .hidden-button button {
-        height: 43px;
-        width: 100%;
-        color: #747474;
-        font-size: 12px;
-        border-top: 1px;
-        border-top: 1px solid #747474;
-        border-bottom: 1px solid #747474;
-    }
-    .post-body_comments .word {
-        display: none;
-    }
+        .main-content_title {
+            margin-top: 25px;
+            margin-bottom: 0px;
+        }
+        .navbar-brand {
+            display: none;
+        }
+        .main-content_grid .lesson-card {
+            width: 334px;
+            height: 415px;
+            margin: 10px;
+            box-shadow: none;
+            background-color: transparent;
+        }
+        .plus-button {
+            display: none;
+        }
+        .lesson-card div {
+            border-radius: 8px;
+            height: 334px;
+            margin-bottom: 10px;
+        }
+        .lesson-card p {
+            font-size: 14px;
+        }
+        .main-content_title-right {
+            display: none;
+        }
+        .main-content_title h2 {
+            margin-left: 10px;
+            margin-top: 40px;
+        }
+        .content-name {
+            display: none;
+        }
+        .row div {
+            margin: 0px;
+        }
+        .lessons-title_about {
+            margin-left: 10px !important;
+            margin-bottom: 10px;
+        }
+        .lessons-title_about span {
+            margin-right: 15px;
+        }
+
+        .profile_links {
+            display: none;
+        }
+        .wrapper {
+            display: none;
+        }
+        .content-body-table {
+            width: 100%;
+            box-shadow: none;
+        }
+
+        .main-content {
+            width: 100%;
+        }
+
+        .tasks div {
+            width: 100%;
+        }
+        video {
+            width: 95%;
+            margin-left: 10px !important;
+        }
+        .navbar-inverse .navbar-toggle {
+            border: none;
+        }
+
+        .content-user-info_name {
+            width: 100%;
+        }
+        .project-stage {
+            margin-right: 0px;
+        }
+        body {}
+        .main-content_grid .tasks input,
+        textarea {
+            width: auto;
+        }
+        .bell {
+            width: 23px;
+            height: 27px;
+        }
+        .filler-checked {
+            padding-left: 12px;
+        }
+        .lessons-p {
+            margin-left: 10PX;
+        }
+        .tasks h5,
+        p {
+            margin-left: 10px;
+        }
+        .tasks p {
+            margin-left: 0px !important;
+        }
+        .navbar-collapse {
+            border-top: none;
+            box-shadow: none;
+        }
+        .navbar-toggle button {
+            background: transparent;
+        }
+        .navbar-inverse .navbar-toggle:focus,
+        .navbar-inverse .navbar-toggle:hover {
+            background: transparent;
+        }
+        .navbar-inverse .navbar-collapse,
+        .navbar-inverse .navbar-form {
+
+            border-color: #101010;
+            color: #fff;
+        }
+
+        .navbar-collapse-content .avatar {
+            width: 61px;
+            height: 61px;
+        }
+        .navbar-collapse .collapse .in.navbar-fixed-top {}
+        .trenning-list {
+            display: none;
+        }
+        .students {
+            display: none !important;
+        }
+
+        .crumbs {
+            display: none;
+        }
+
+        .tast-awaits-check {
+            display: none !important;
+        }
+        .task-list-content,
+        .content-body_content {
+            width: 100%;
+        }
+        .content-body_content {
+            margin-left: 10px !important
+        }
+        .lessons-title {
+            margin-left: 0px;
+        }
+        .couch {
+            display: none;
+        }
+
+        .tasks img {
+            width: 100%;
+            margin-left: 0px;
+        }
+        .main-content_grid .tasks input,
+        textarea {
+            display: block;
+            width: 236px !important;
+        }
+
+        .left-align {
+            margin-left: 0px;
+        }
+
+        .btn-app {
+            margin-right: 10px;
+        }
+
+        .without-right-menu {
+            margin-right: 0px !important;
+        }
+        .wrapper-tab {
+            margin-top: 0px !important;
+            margin-bottom: 15px !important;
+            overflow-x: hidden;
+        }
+
+        .wrapper-max {
+            max-width: 100%;
+        }
+
+        .additional-wrapper {
+            width: 100%;
+            overflow-x: scroll;
+        }
+
+        .wrapper-tab div {
+            width: 95px;
+            padding-left: 0px;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+        .input-wrapper {
+            display: none;
+        }
+        .post-body {
+            display: block;
+        }
+
+        .bread-point {
+            margin-left: 10px !important;
+            margin-top: 10px !important;
+        }
+        .input-wrapper {
+            box-shadow: none;
+            border: none;
+            border-radius: 0px;
+            width: 375px;
+        }
+
+        .wrapper-tab div {
+            /* height: 95px; */
+        }
+        #uploaded-file {
+            display: none;
+        }
+
+        .profile-card {
+            width: 375px;
+            height: 100%;
+            box-shadow: none;
+            margin-bottom: 15px !important;
+            border-radius: 0px
+        }
+
+        .post-body_content {
+            padding: 15px;
+        }
+
+        .post-body_content img {
+            width: 100%;
+        }
+        .post-body_comments:last-child {
+            display: none;
+        }
+
+        .profile-card_info {
+            justify-content: space-around;
+            border-top: 1px solid #C3C3C3;
+            padding: 10px;
+            margin-left: 10px !important;
+            margin-right: 10px !important;
+        }
+
+        .profile-card_info div {
+            border-left: 1px solid #c3c3c3;
+            border-right: 1px solid #c3c3c3;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .profile-card_info div:first-child {
+            border: none;
+        }
+        .profile-card_info div:last-child {
+            border: none;
+        }
+        .profile-card_data {
+            text-align: left;
+            padding-left: 100px;
+            margin-bottom: 25px !important
+        }
+        .profile-card_avatar {
+            position: absolute;
+            margin-left: -177px;
+        }
+        .city {
+            display: inline-flex;
+            padding-left: 15px;
+            color: #747474;
+        }
+        .profile-card_data p {
+            color: #747474;
+            font-size: 12px;
+            margin-left: 0px;
+        }
+
+        .profile-card_data p:first-child {
+            color: #000;
+            font-size: 15px;
+        }
+
+        .hidden-button {
+            display: block;
+        }
+        .hidden-button button {
+            height: 43px;
+            width: 100%;
+            color: #747474;
+            font-size: 12px;
+            border-top: 1px;
+            border-top: 1px solid #747474;
+            border-bottom: 1px solid #747474;
+        }
+        .post-body_comments .word {
+            display: none;
+        }
 
 
-    .hidden-button button:after {
-        position: absolute;
-        /* float: right; */
-        /* margin-top: -15px; */
-        margin-left: 100px;
-        /* margin-right: 126px; */
-        content: "";
-        width: 18px;
-        height: 16px;
-        transform: rotate(-90deg);
-        background: transparent url(../img/arrow.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        cursor: pointer;
-    }
+        .hidden-button button:after {
+            position: absolute;
+            /* float: right; */
+            /* margin-top: -15px; */
+            margin-left: 100px;
+            /* margin-right: 126px; */
+            content: "";
+            width: 18px;
+            height: 16px;
+            transform: rotate(-90deg);
+            background: transparent url(../img/arrow.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
 
-    .post-foot_comments {
-        display: block;
-    }
-    .comment-body {
-        width: 100%;
-        padding: 10px;
-        float: left;
-        background: #F7F7F7;
-    }
-    .comment-body .avatar {
-        width: 29px !important;
-        height: 29px !important;
-        display: block;
-    }
+        .post-foot_comments {
+            display: block;
+        }
+        .comment-body {
+            width: 100%;
+            padding: 10px;
+            float: left;
+            background: #F7F7F7;
+        }
+        .comment-body .avatar {
+            width: 29px !important;
+            height: 29px !important;
+            display: block;
+        }
 
-    .comment-body div {
-        position: absolute;
-        margin-top: -35px;
-        margin-left: 30px;
-        text-align: left;
-    }
+        .comment-body div {
+            position: absolute;
+            margin-top: -35px;
+            margin-left: 30px;
+            text-align: left;
+        }
 
-    .lesson-num {
-        width: 25%;
-        margin-right: 10px;
-    }
+        .lesson-num {
+            width: 25%;
+            margin-right: 10px;
+        }
 
-    .lesson-data {
-        width: 48%;
-    }
+        .lesson-data {
+            width: 48%;
+        }
 
-    .request-input {
-        width: 100%;
-        float: left;
-        padding-top: 12px;
-        padding-bottom: 15px;
-        padding-bottom: 20px;
-        background: #fff;
-        text-align: left;
-        padding-left: 10px;
-    }
-    .request-input input {
-        width: 80%;
-        border: 1px solid #D8D8D8;
-        border-radius: 50px;
-        padding-top: 13px;
-        padding-left: 20px;
-        padding-bottom: 10px;
-        padding-right: 20px;
-    }
-    .request-input:after {
-        position: absolute;
-        /* float: right; */
-        /* margin-top: -15px; */
-        /* margin-right: 126px; */
-        margin-top: 12px;
-        margin-left: 20px;
-        content: "";
-        width: 25px;
-        height: 21px;
-        background: transparent url(../img/arrow-sent.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        cursor: pointer;
-    }
-    .settings-info {
-        display: block;
-        margin-left: 240px;
-        margin-top: -25px;
-    }
+        .request-input {
+            width: 100%;
+            float: left;
+            padding-top: 12px;
+            padding-bottom: 15px;
+            padding-bottom: 20px;
+            background: #fff;
+            text-align: left;
+            padding-left: 10px;
+        }
+        .request-input input {
+            width: 80%;
+            border: 1px solid #D8D8D8;
+            border-radius: 50px;
+            padding-top: 13px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+        }
+        .request-input:after {
+            position: absolute;
+            /* float: right; */
+            /* margin-top: -15px; */
+            /* margin-right: 126px; */
+            margin-top: 12px;
+            margin-left: 20px;
+            content: "";
+            width: 25px;
+            height: 21px;
+            background: transparent url(../img/arrow-sent.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        .settings-info {
+            display: block;
+            margin-left: 240px;
+            margin-top: -25px;
+        }
 
-    .post-body_comments>svg {
-        margin-right: 5px;
-    }
-    .settings-edit {
-        margin-left: 240px;
-        margin-top: -65px;
-    }
-    .bell-wrapper {
-        display: inline-block;
-    }
+        .post-body_comments>svg {
+            margin-right: 5px;
+        }
+        .settings-edit {
+            margin-left: 240px;
+            margin-top: -65px;
+        }
+        .bell-wrapper {
+            display: inline-block;
+        }
 
-    .response {
-        margin-left: 0px !important;
-    }
-    .lesson-data {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .notice {
-        display: block !important;
-        height: 100%;
-        width: 100%;
-        background: #fff;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .notice_title {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 5px;
-        padding-left: 5px;
-        text-align: left;
-        border-bottom: 1px solid #C3C3C3;
-    }
+        .response {
+            margin-left: 0px !important;
+        }
+        .lesson-data {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .notice {
+            display: block !important;
+            height: 100%;
+            width: 100%;
+            background: #fff;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        .notice_title {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 5px;
+            padding-left: 5px;
+            text-align: left;
+            border-bottom: 1px solid #C3C3C3;
+        }
 
-    .notice_body {
-        padding-top: 18px;
-    }
+        .notice_body {
+            padding-top: 18px;
+        }
 
-    .notice_body div {
-        text-align: left;
-        margin-bottom: 25px;
-    }
+        .notice_body div {
+            text-align: left;
+            margin-bottom: 25px;
+        }
 
-    .notice_body div img {
-        width: 29px !important;
-        height: 29px !important;
-        margin-right: 10px !important
-    }
-    .comment_text {
-        display: inline-flex;
-    }
+        .notice_body div img {
+            width: 29px !important;
+            height: 29px !important;
+            margin-right: 10px !important
+        }
+        .comment_text {
+            display: inline-flex;
+        }
 
-    .notice_body span {
-        font-size: 13px;
-    }
-    .notice_body span:first-child {
-        margin-left: 0px;
-    }
-    .comment_data {
-        color: #747474;
-        margin-left: 15px;
-    }
+        .notice_body span {
+            font-size: 13px;
+        }
+        .notice_body span:first-child {
+            margin-left: 0px;
+        }
+        .comment_data {
+            color: #747474;
+            margin-left: 15px;
+        }
 
-    .comment_text div {
-        margin-bottom: 0px;
-    }
-    .notice_title span {
-        font-size: 14px;
-    }
+        .comment_text div {
+            margin-bottom: 0px;
+        }
+        .notice_title span {
+            font-size: 14px;
+        }
 
-    .photo-camera {
-        width: 25px;
-    }
-    .notice_app {
-        color: #8191B2;
-        margin-left: 3px !important;
-    }
-    .components_con {
-        display: none;
-    }
+        .photo-camera {
+            width: 25px;
+        }
+        .notice_app {
+            color: #8191B2;
+            margin-left: 3px !important;
+        }
+        .components_con {
+            display: none;
+        }
 
-    .bell_button {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-    .navbar-header .bell_button {
-        display: inline-block;
-    }
-    .mobile-nav {
-        display: block;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        height: 100vh;
-    }
-    .navbar-fixed-bottom .navbar-collapse,
-    .navbar-fixed-top .navbar-collapse {
-        max-height: 100%;
-    }
-    .mobile-nav_header {
-        display: flex;
-    }
-    .mobile-nav_header .avatar {
-        width: 61px;
-        height: 61px;
-    }
+        .bell_button {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .navbar-header .bell_button {
+            display: inline-block;
+        }
+        .mobile-nav {
+            display: block;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            height: 100vh;
+        }
+        .navbar-fixed-bottom .navbar-collapse,
+        .navbar-fixed-top .navbar-collapse {
+            max-height: 100%;
+        }
+        .mobile-nav_header {
+            display: flex;
+        }
+        .mobile-nav_header .avatar {
+            width: 61px;
+            height: 61px;
+        }
 
-    .mobile-nav_header span {
-        font-size: 20px;
-    }
-    .mobile-nav ul li {
-        margin: 25px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    .mobile-nav ul li a {
-        font-size: 18px;
-        color: #fff;
-        padding-left: 20px;
-    }
-    .header-data {
-        flex-direction: column;
-    }
+        .mobile-nav_header span {
+            font-size: 20px;
+        }
+        .mobile-nav ul li {
+            margin: 25px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .mobile-nav ul li a {
+            font-size: 18px;
+            color: #fff;
+            padding-left: 20px;
+        }
+        .header-data {
+            flex-direction: column;
+        }
 
-    .task-icon:before {
-        position: absolute;
-        margin-top: -5px;
-        margin-left: -70px;
-        content: "";
-        width: 24px;
-        height: 29px;
-        background: transparent url(../img/nav_task.svg);
-        background-size: cover;
+        .task-icon:before {
+            position: absolute;
+            margin-top: -5px;
+            margin-left: -70px;
+            content: "";
+            width: 24px;
+            height: 29px;
+            background: transparent url(../img/nav_task.svg);
+            background-size: cover;
+        }
+        .team-icon:before {
+            position: absolute;
+            margin-top: -5px;
+            margin-left: -75px;
+            content: "";
+            width: 32px;
+            height: 29px;
+            background: transparent url(../img/team_nav.svg);
+            background-size: cover;
+        }
+        .new-icon:before {
+            position: absolute;
+            margin-top: -5px;
+            margin-left: -75px;
+            content: "";
+            width: 27px;
+            height: 29px;
+            background: transparent url(../img/new_nav.svg);
+            background-size: cover;
+        }
+        .graph-icon:before {
+            position: absolute;
+            margin-top: -5px;
+            margin-left: -75px;
+            content: "";
+            width: 28px;
+            height: 29px;
+            background: transparent url(../img/graph_nav.svg);
+            background-size: cover;
+        }
     }
-    .team-icon:before {
-        position: absolute;
-        margin-top: -5px;
-        margin-left: -75px;
-        content: "";
-        width: 32px;
-        height: 29px;
-        background: transparent url(../img/team_nav.svg);
-        background-size: cover;
-    }
-    .new-icon:before {
-        position: absolute;
-        margin-top: -5px;
-        margin-left: -75px;
-        content: "";
-        width: 27px;
-        height: 29px;
-        background: transparent url(../img/new_nav.svg);
-        background-size: cover;
-    }
-    .graph-icon:before {
-        position: absolute;
-        margin-top: -5px;
-        margin-left: -75px;
-        content: "";
-        width: 28px;
-        height: 29px;
-        background: transparent url(../img/graph_nav.svg);
-        background-size: cover;
-    }
-}
