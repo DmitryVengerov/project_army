@@ -138,14 +138,26 @@ h6 {
     margin-left: 10px;
 }
 
+.bell_button {
+    position: relative;
+    top: 5px;
+    height: 24px;
+    width: 21px;
+    /* background-size: contain; */
+    background: url(../img/bell.png);
+    background-position: center;
+    background-size: cover;
+}
+
 .alert-dot {
     position: absolute;
     height: 6px;
+    margin-top: -14px;
     width: 6px;
     border-radius: 20px;
     background-color: red;
     top: 15px;
-    margin-left: 25px;
+    margin-left: 2px;
 }
 
 .left-nav {
@@ -602,6 +614,7 @@ circle:nth-child(2n) {
 }
 
 .first-content div div button {
+    padding-top: 5px;
     margin-right: 78px;
     width: 215px;
     height: 32px;
@@ -648,7 +661,7 @@ circle:nth-child(2n) {
     padding: 3px 11px !important;
     padding-bottom: 0px !important;
     padding-top: 0px !important;
-    padding-right: 30px !important;
+    padding-right: 25px !important;
     height: 20px !important;
 }
 
@@ -659,7 +672,7 @@ circle:nth-child(2n) {
 
 .search-icon-input:after {
     position: absolute;
-    margin-top: 5px;
+    margin-top: 7px;
     margin-right: 5px;
     top: 0;
     right: 0;
@@ -805,7 +818,7 @@ th:first-child {
 
 .first-content div div .students-toggle:after {
     position: absolute;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-left: 100px;
     /* margin-right: 25px; */
     content: "";
@@ -927,6 +940,8 @@ th:first-child {
 
 .table-control_name {
     width: 80px;
+    padding-left: 10px;
+    padding-right: 20px;
     height: 32px;
     border-radius: 3px;
     border: 1px solid #E7E9EE;
@@ -934,6 +949,8 @@ th:first-child {
 
 .table-control_mail {
     width: 150px;
+    padding-left: 10px;
+    padding-right: 20px;
     height: 32px;
     border-radius: 3px;
     border: 1px solid #E7E9EE;
@@ -989,6 +1006,7 @@ th:first-child {
 }
 
 .lists-free div {
+    max-height: 40px;
     background: #fff;
     width: 539px;
     padding: 10px 20px 10px 40px;
@@ -1452,6 +1470,12 @@ th:first-child {
     width: unset !important;
 }
 
+.components {
+    margin-bottom: 60px;
+}
+
+
+
 
 
 /* buttons */
@@ -1557,6 +1581,9 @@ th:first-child {
     height: 20px;
     background: url(../img/smile.svg) no-repeat;
 }
+
+
+
 
 
 
@@ -2358,6 +2385,33 @@ figure span {
     text-align: right;
 }
 
+.btn-drop {
+    padding-top: 5px;
+    margin-right: 78px;
+    width: 215px !important;
+    height: 32px;
+    background-color: #fff;
+    z-index: 1001;
+    border-radius: 3px;
+    border: 1px solid #E7E9EE;
+    text-align: left;
+}
+
+
+.btn-drop:after {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* margin-right: 25px; */
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: transparent url(../img/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
 @media (max-width: 852px) {
     .navbar-nav {
         display: none;
@@ -2838,5 +2892,90 @@ figure span {
     .notice_app {
         color: #8191B2;
         margin-left: 3px !important;
+    }
+    .components_con {
+        display: none;
+    }
+
+    .bell_button {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .mobile-nav {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        height: 100vh;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+    .mobile-nav_header {
+        display: flex;
+    }
+    .mobile-nav_header .avatar {
+        width: 61px;
+        height: 61px;
+    }
+
+    .mobile-nav_header span {
+        font-size: 20px;
+    }
+    .mobile-nav ul li {
+        margin: 25px;
+            margin-top: 40px;
+    margin-bottom: 40px;
+
+    }
+    .mobile-nav ul li a {
+        font-size: 18px;
+        color: #fff;
+        padding-left: 20px;
+    }
+    .header-data {
+        flex-direction: column;
+    }
+
+    .task-icon:before {
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -70px;
+        content: "";
+        width: 24px;
+        height: 29px;
+        background: transparent url(../img/nav_task.svg);
+        background-size: cover;
+    }
+    .team-icon:before {
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -75px;
+        content: "";
+        width: 32px;
+        height: 29px;
+        background: transparent url(../img/team_nav.svg);
+        background-size: cover;
+    }
+    .new-icon:before {
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -75px;
+        content: "";
+        width: 27px;
+        height: 29px;
+        background: transparent url(../img/new_nav.svg);
+        background-size: cover;
+    }
+    .graph-icon:before {
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -75px;
+        content: "";
+        width: 28px;
+        height: 29px;
+        background: transparent url(../img/graph_nav.svg);
+        background-size: cover;
     }
 }

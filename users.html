@@ -13,6 +13,8 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Army CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -49,6 +51,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <form class="navbar-form navbar-right">
+                
                 <div class="bell-wrapper">
                     <input type="image" src='assets/img/bell.png' class="arrow-dropdawn bell" name="">
                     <span class="alert-dot"></span>
@@ -174,7 +177,6 @@
     </nav>
     <div class="container">
         <div class="content-name">
-
             <h2 class="users_title">Проект Армия</h2>
             <button class="btn-save">Добавить папку</button>
             <button class="add-btn">Добавить группу</button>
@@ -193,59 +195,17 @@
                 <ul>
                     <li>
                         <div class="title-list">
-                            <a>Проект Армия</a>
+                            <a data-toggle="collapse" href="#free1">Проект Армия</a>
                         </div>
                     </li>
                     <li>
-                        <ul>
+                        <ul class="panel-collapse collapse" id="free1">
                             <li>
                                 <div class="title-list">
-                                    <a>Бесплатные</a>
+                                    <a data-toggle="collapse" href="#tax1">Бесплатные</a>
                                 </div>
                             </li>
-                            <ul>
-                                <li>
-                                    <div>
-                                        <a>От друга</a>
-                                </li>
-                                <li>
-                                    <div>
-                                        <a>От Тети Зины</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <a>Армия 2.6 Бесплатные</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <a>Армия 2.7 Бесплатные</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <a>Армия 2.8 Бесплатные</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <div class="title-list">
-                            <a>Проект Армия</a>
-                        </div>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <div class="title-list">
-                                    <a>Бесплатные</a>
-                                </div>
-                            </li>
-                            <ul>
+                            <ul class="panel-collapse collapse" id="tax1">
                                 <li>
                                     <div>
                                         <a>От друга</a>
