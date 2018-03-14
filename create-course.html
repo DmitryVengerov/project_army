@@ -20,12 +20,32 @@
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-header">
+            <button class="bell_button">
+                <span class="alert-dot"></span>
+            </button>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <div id='navbar' class="navbar-collapse collapse">
+                <div class="mobile-nav">
+                    <div class="mobile-nav_header">
+                        <img class='avatar' src="assets/img/temp.jpeg">
+                        <div class="mobile-nav_header header-data">
+                            <span>Алексей Алексеев</span>
+                            <span>Профиль</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="#" class="task-icon">Задание</a></li>
+                        <li><a href="#" class="team-icon">Команда</a></li>
+                        <li><a href="#" class="new-icon">Новости</a></li>
+                        <li><a href="#" class="graph-icon">Рейтинг</a></li>
+                    </ul>
+                </div>
+            </div>
             <a class="navbar-brand" href="#">
                 <svg width="43px" height="29px" viewBox="0 0 43 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -49,17 +69,15 @@
                 <li><a href="#">Цели</a></li>
             </ul>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right">
-                <div class="bell-wrapper">
-                    <input type="image" src='assets/img/bell.png' class="arrow-dropdawn bell" name="">
+                <button class="bell_button">
                     <span class="alert-dot"></span>
-                </div>
+                </button>
                 <div class="form-group">
                     <img src="assets/img/shape.png" class="search-icon">
                     <input type="text" class="form-control">
                 </div>
-                <img class='avatar' src="assets/img/temp.jpeg">
                 <input type="image" src='assets/img/arrow.png' class="arrow-dropdawn" name="">
             </form>
         </div>
