@@ -7,13 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title></title>
-
+    <title>Chat</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Army CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,7 +27,7 @@
             <div id='navbar' class="navbar-collapse collapse">
                 <div class="mobile-nav">
                     <div class="mobile-nav_header">
-                        <img class='avatar' src="assets/img/temp.jpeg">
+                        <img class='avatar' src="assets/img/temp.jpeg" alt="avatar">
                         <div class="mobile-nav_header header-data">
                             <span>Алексей Алексеев</span>
                             <span>Профиль</span>
@@ -48,8 +44,8 @@
             <a class="navbar-brand" href="#">
                 <svg width="43px" height="29px" viewBox="0 0 43 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Верхнее-меню" transform="translate(-33.000000, -17.000000)" fill="#FFFFFF">
-                            <g transform="translate(4.000000, -39.000000)" id="Логотип-Армии">
+                        <g transform="translate(-33.000000, -17.000000)" fill="#FFFFFF">
+                            <g transform="translate(4.000000, -39.000000)" >
                                 <g transform="translate(29.000000, 56.000000)">
                                     <path d="M0,10.2787702 C7.88709435,10.2679134 15.7741887,10.2569541 23.661283,10.2460973 C24.9575371,6.83069737 26.2537911,3.4153999 27.5500451,0 C28.8396898,3.41519505 30.1293345,6.8303901 31.4189792,10.2456876 C35.1014063,10.2585929 38.7838335,10.2716006 42.4662607,10.2846083 C40.7685934,11.5539375 39.0710294,12.8232667 37.3733621,14.0925959 C26.616168,14.0934153 15.8590772,14.0942347 5.10188315,14.095054 C3.40132428,12.8229594 1.70066214,11.5508648 0,10.2787702" id="Fill-1"></path>
                                     <path d="M7,16 C16.4486508,16.0001024 25.8974049,16.0003073 35.3460558,16.0004097 C33.6377516,17.2771133 31.9294474,18.553817 30.2211432,19.8305206 C24.1862092,19.8291891 18.1512751,19.8278576 12.1163411,19.8265261 C10.4109285,18.5510516 8.70541259,17.2754746 7,16" id="Fill-3"></path>
@@ -73,11 +69,13 @@
                 <button class="bell_button">
                     <span class="alert-dot"></span>
                 </button>
+
                 <div class="form-group">
-                    <img src="assets/img/shape.png" class="search-icon">
+                    <img src="assets/img/shape.png" class="search-icon" alt='shape'>
                     <input type="text" class="form-control">
                 </div>
-                <input type="image" src='assets/img/arrow.png' class="arrow-dropdawn" name="">
+                <img class='avatar' src="assets/img/temp.jpeg" alt="avatar">
+                <input type="image" src='assets/img/arrow.png' class="arrow-dropdawn" alt='arrow'>
             </form>
         </div>
     </header>
@@ -93,10 +91,10 @@
                 </div>
                 <div class="chat_body">
                     <div class="sender">
-                        <img class='avatar' src="assets/img/temp.jpeg">
+                        <img class='avatar' src="assets/img/temp.jpeg" alt="avatar">
                         <div class="mes_wrapper_1">
                             <span>Джон Маккафи</span>
-                            <span>Hello bitch!</span>
+                            <span>Hello!</span>
                         </div>
                     </div>
                     <div class="recipient">
@@ -111,6 +109,7 @@
                     <button class="send-btn"></button>
                 </div>
             </div>
+        </div>
     </main>
     <div class="plus-button"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
