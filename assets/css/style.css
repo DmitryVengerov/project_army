@@ -2627,6 +2627,11 @@ figure span {
         margin-top: 0px !important;
         margin-bottom: 15px !important;
         overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .wrapper-max {
+        max-width: 100%;
     }
 
     .wrapper-tab div {
@@ -2653,6 +2658,9 @@ figure span {
         width: 375px;
     }
 
+    .wrapper-tab div {
+        height: 95px;
+    }
     #uploaded-file {
         display: none;
     }
