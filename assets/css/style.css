@@ -4,7 +4,8 @@
     font-weight: normal;
 }
 
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
     cursor: not-allowed;
 }
 
@@ -1484,6 +1485,7 @@ th:first-child {
 
 
 
+
 /* buttons */
 
 .btn-cnl {
@@ -1587,6 +1589,7 @@ th:first-child {
     height: 20px;
     background: url(../img/smile.svg) no-repeat;
 }
+
 
 
 
@@ -2037,6 +2040,7 @@ figure span {
 .navbar-header .bell_button {
     display: none;
 }
+
 .mobile-nav {
     display: none;
 }
@@ -2423,21 +2427,47 @@ figure span {
     cursor: pointer;
 }
 
-@media (max-width: 852px) {
-    .navbar-nav {
+
+@media (min-width: 1024px) {
+    .navbar-inverse .navbar-toggle {
         display: none;
+    }
+    .collapse {
+        display: block !important;
+    visibility: visible !important;
+    }
+    .navbar-header {
+        position: absolute;
     }
 }
 
+@media (min-width: 768px) {
+    
+    .post-body {
+        margin: auto !important;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .collapse.in {
+        display: block !important;
+        visibility: visible !important;
+    }
+    .navbar-header {
+        float: left;
+        width: 100%;
+    }
+}
 
 @media (max-width: 768px) {
     .navbar-nav {
         display: none;
     }
 
-    .navbar-nav {
-        display: none;
-    }
     .left-nav {
         display: none;
     }
@@ -2627,11 +2657,15 @@ figure span {
         margin-top: 0px !important;
         margin-bottom: 15px !important;
         overflow-x: hidden;
-        max-width: 100%;
     }
 
     .wrapper-max {
         max-width: 100%;
+    }
+
+    .additional-wrapper {
+        width: 100%;
+        overflow-x: scroll;
     }
 
     .wrapper-tab div {
@@ -2659,7 +2693,7 @@ figure span {
     }
 
     .wrapper-tab div {
-        height: 95px;
+        /* height: 95px; */
     }
     #uploaded-file {
         display: none;
@@ -2947,9 +2981,8 @@ figure span {
     }
     .mobile-nav ul li {
         margin: 25px;
-            margin-top: 40px;
-    margin-bottom: 40px;
-
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     .mobile-nav ul li a {
         font-size: 18px;
