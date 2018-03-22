@@ -429,6 +429,9 @@ background: linear-gradient(45deg,
     padding-bottom: 0px;
 }
 
+.panel-collapse .collapse {
+    display: none !important;
+}
 .wrapper-tab>div>span {
     margin: 0px;
 }
@@ -2436,10 +2439,11 @@ figure span {
     .navbar-inverse .navbar-toggle {
         display: none;
     }
+    /*
     .collapse {
         display: block !important;
         visibility: visible !important;
-    }
+    }*/
     .navbar-header {
         position: absolute;
     }
